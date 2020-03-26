@@ -165,6 +165,8 @@ $(document).ready(function(){initNavTree('functions_func_m.html','');});
 , <a class="el" href="class_ogre_1_1_d3_d11_dynamic_buffer.html#a528568ba8abd95af476da25ba7b2d9e5">Ogre::D3D11DynamicBuffer</a>
 , <a class="el" href="class_ogre_1_1_g_l3_plus_buffer_interface.html#ac760de6a3030766a81c9b1892c43cc7a">Ogre::GL3PlusBufferInterface</a>
 , <a class="el" href="class_ogre_1_1_g_l3_plus_dynamic_buffer.html#aad901c35e1999eb8c67f71df184c978c">Ogre::GL3PlusDynamicBuffer</a>
+, <a class="el" href="class_ogre_1_1_g_l_e_s2_buffer_interface.html#a522b674007c7b004bdf474e19581727c">Ogre::GLES2BufferInterface</a>
+, <a class="el" href="class_ogre_1_1_g_l_e_s2_dynamic_buffer.html#a742a6e812d131adc5b01856bb43f7339">Ogre::GLES2DynamicBuffer</a>
 , <a class="el" href="class_ogre_1_1_metal_buffer_interface.html#abe156f1a97a4da9a3df954d22251dc19">Ogre::MetalBufferInterface</a>
 , <a class="el" href="class_ogre_1_1_metal_discard_buffer.html#adb87678d9288fa5dd55fb3669b7228be">Ogre::MetalDiscardBuffer</a>
 , <a class="el" href="class_ogre_1_1_metal_dynamic_buffer.html#a67ceb3411b703891b3bf15ef851c0741">Ogre::MetalDynamicBuffer</a>
@@ -203,6 +205,7 @@ $(document).ready(function(){initNavTree('functions_func_m.html','');});
 : <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a7342cb7a73ff462a89189aebf8035017">Ogre::D3D11RenderSystem</a>
 , <a class="el" href="class_ogre_1_1_d3_d9_render_system.html#a489d99fe770e4c105434ed13911ce350">Ogre::D3D9RenderSystem</a>
 , <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a3512c6f462bef8e8dde5f8e997f1e903">Ogre::GL3PlusRenderSystem</a>
+, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#aaaf19428429c81faca674b37f578b3c6">Ogre::GLES2RenderSystem</a>
 , <a class="el" href="class_ogre_1_1_metal_render_system.html#ae3793cb6454b1ae84b0318f810702bb8">Ogre::MetalRenderSystem</a>
 , <a class="el" href="class_ogre_1_1_n_u_l_l_render_system.html#a0d6624c266a299d3d7e5867c8ad4ebbd">Ogre::NULLRenderSystem</a>
 , <a class="el" href="class_ogre_1_1_render_system.html#aaafa1dfb6fcf978786add8ee2b02dfb5">Ogre::RenderSystem</a>
@@ -271,6 +274,7 @@ $(document).ready(function(){initNavTree('functions_func_m.html','');});
 <li>mergeContiguousBlocks()
 : <a class="el" href="class_ogre_1_1_d3_d11_vao_manager.html#a7c48c351c69e8f682ca05ccc17791853">Ogre::D3D11VaoManager</a>
 , <a class="el" href="class_ogre_1_1_g_l3_plus_vao_manager.html#addb5d4187c15479363e1cf47a7b21844">Ogre::GL3PlusVaoManager</a>
+, <a class="el" href="class_ogre_1_1_g_l_e_s2_vao_manager.html#a897558a0bd7ad82b1a6aaea88853bc0e">Ogre::GLES2VaoManager</a>
 , <a class="el" href="class_ogre_1_1_metal_vao_manager.html#abc42862fb69d9e609fd3bc06f0d98323">Ogre::MetalVaoManager</a>
 </li>
 <li>mergeIntoBounds()
@@ -368,6 +372,9 @@ $(document).ready(function(){initNavTree('functions_func_m.html','');});
 </li>
 <li>MetalDevice()
 : <a class="el" href="struct_ogre_1_1_metal_device.html#ad8e3a62da0aa8f8ff31c516c95ffc94e">Ogre::MetalDevice</a>
+</li>
+<li>MetalDeviceItem()
+: <a class="el" href="class_ogre_1_1_metal_device_item.html#a8e4db63fb6884f976429c70f45390701">Ogre::MetalDeviceItem</a>
 </li>
 <li>MetalDiscardBuffer()
 : <a class="el" href="class_ogre_1_1_metal_discard_buffer.html#a353865cac81742d6be7a070a8bb4ec19">Ogre::MetalDiscardBuffer</a>
@@ -485,7 +492,7 @@ $(document).ready(function(){initNavTree('functions_func_m.html','');});
 <li>migrateTo()
 : <a class="el" href="class_ogre_1_1_bone_memory_manager.html#aeb86a46ec76b74740a6023b50a68b1d0">Ogre::BoneMemoryManager</a>
 , <a class="el" href="class_ogre_1_1_node.html#a6f5fc23a04991fc7a524763b0bdf829c">Ogre::Node</a>
-, <a class="el" href="class_ogre_1_1_node_memory_manager.html#a2e70fdeca2ff47f8b08861ae24af762f">Ogre::NodeMemoryManager</a>
+, <a class="el" href="class_ogre_1_1_node_memory_manager.html#a5e020556390ffe4f5402d3600211389d">Ogre::NodeMemoryManager</a>
 , <a class="el" href="class_ogre_1_1_object_memory_manager.html#a059f579b3fce6297b6541e6a06a36d40">Ogre::ObjectMemoryManager</a>
 </li>
 <li>migrateToAndAttach()
@@ -511,13 +518,13 @@ $(document).ready(function(){initNavTree('functions_func_m.html','');});
 : <a class="el" href="class_ogre_1_1_bitwise.html#aa3fd3a659f416fe2f6e034c42b6a873c">Ogre::Bitwise</a>
 </li>
 <li>MovableObject()
-: <a class="el" href="class_ogre_1_1_movable_object.html#abb265c65ded0523d7466ea2f03815c53">Ogre::MovableObject</a>
+: <a class="el" href="class_ogre_1_1_movable_object.html#ae02e5bd3b1d7496831db07d2913146c3">Ogre::MovableObject</a>
 </li>
 <li>MovableObjectFactory()
 : <a class="el" href="class_ogre_1_1_movable_object_factory.html#a20ebc986aa86806dc61a95e86312500f">Ogre::MovableObjectFactory</a>
 </li>
 <li>MovablePlane()
-: <a class="el" href="class_ogre_1_1_movable_plane.html#a30720a868d401104a15409689d6fbb74">Ogre::MovablePlane</a>
+: <a class="el" href="class_ogre_1_1_movable_plane.html#a3bb92c2ae04a46d33653e489c4ab5b99">Ogre::MovablePlane</a>
 </li>
 <li>move()
 : <a class="el" href="class_ogre_1_1_camera.html#a7666cc73efeab787e0094ee992eb9fee">Ogre::Camera</a>

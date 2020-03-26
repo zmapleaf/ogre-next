@@ -144,12 +144,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a883fd5c2376cec804e00265ad71e1d2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_scene_manager.html">SceneManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_root.html#a883fd5c2376cec804e00265ad71e1d2e">_getCurrentSceneManager</a> (void) const</td></tr>
 <tr class="memdesc:a883fd5c2376cec804e00265ad71e1d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the scene manager currently being used to render a frame.  <a href="#a883fd5c2376cec804e00265ad71e1d2e">More...</a><br /></td></tr>
 <tr class="separator:a883fd5c2376cec804e00265ad71e1d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa65fd3d7d2ae9bd93c1f3dd1f1e433d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_root.html#aa65fd3d7d2ae9bd93c1f3dd1f1e433d2">_notifyRenderingFrameStarted</a> (void)</td></tr>
+<tr class="separator:aa65fd3d7d2ae9bd93c1f3dd1f1e433d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16b5488539651d697d0a4dd5cdbdd4c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_root.html#a16b5488539651d697d0a4dd5cdbdd4c3">_popCurrentSceneManager</a> (<a class="el" href="class_ogre_1_1_scene_manager.html">SceneManager</a> *sm)</td></tr>
 <tr class="memdesc:a16b5488539651d697d0a4dd5cdbdd4c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pops the scene manager currently being used to render.  <a href="#a16b5488539651d697d0a4dd5cdbdd4c3">More...</a><br /></td></tr>
 <tr class="separator:a16b5488539651d697d0a4dd5cdbdd4c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14ab7036973eb56ee4e1ad10304d9b12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_root.html#a14ab7036973eb56ee4e1ad10304d9b12">_pushCurrentSceneManager</a> (<a class="el" href="class_ogre_1_1_scene_manager.html">SceneManager</a> *sm)</td></tr>
 <tr class="memdesc:a14ab7036973eb56ee4e1ad10304d9b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes the scene manager currently being used to render.  <a href="#a14ab7036973eb56ee4e1ad10304d9b12">More...</a><br /></td></tr>
 <tr class="separator:a14ab7036973eb56ee4e1ad10304d9b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5716ab44216f79865216750e414b1b7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_root.html#a5716ab44216f79865216750e414b1b7e">_renderingFrameEnded</a> (void)</td></tr>
+<tr class="separator:a5716ab44216f79865216750e414b1b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24559fa6a4f1772c7518fcb0911278f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_root.html#a24559fa6a4f1772c7518fcb0911278f4">_updateAllRenderTargets</a> (void)</td></tr>
 <tr class="memdesc:a24559fa6a4f1772c7518fcb0911278f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal method used for updating all <a class="el" href="class_ogre_1_1_render_target.html" title="A &#39;canvas&#39; which can receive the results of a rendering operation. ">RenderTarget</a> objects (windows, renderable textures etc) which are set to auto-update.  <a href="#a24559fa6a4f1772c7518fcb0911278f4">More...</a><br /></td></tr>
 <tr class="separator:a24559fa6a4f1772c7518fcb0911278f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -671,6 +675,24 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="aa65fd3d7d2ae9bd93c1f3dd1f1e433d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa65fd3d7d2ae9bd93c1f3dd1f1e433d2">&#9670;&nbsp;</a></span>_notifyRenderingFrameStarted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::Root::_notifyRenderingFrameStarted </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a16b5488539651d697d0a4dd5cdbdd4c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16b5488539651d697d0a4dd5cdbdd4c3">&#9670;&nbsp;</a></span>_popCurrentSceneManager()</h2>
 
@@ -710,6 +732,24 @@ Friends</h2></td></tr>
 
 <p>Pushes the scene manager currently being used to render. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>This is only intended for internal use. </dd></dl>
+
+</div>
+</div>
+<a id="a5716ab44216f79865216750e414b1b7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5716ab44216f79865216750e414b1b7e">&#9670;&nbsp;</a></span>_renderingFrameEnded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::Root::_renderingFrameEnded </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

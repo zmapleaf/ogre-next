@@ -210,6 +210,8 @@ var searchData=
   ['metaldepthtexturetarget',['MetalDepthTextureTarget',['../class_ogre_1_1_metal_depth_texture_target.html',1,'Ogre']]],
   ['metaldescriptorsettexture',['MetalDescriptorSetTexture',['../struct_ogre_1_1_metal_descriptor_set_texture.html',1,'Ogre']]],
   ['metaldevice',['MetalDevice',['../struct_ogre_1_1_metal_device.html',1,'Ogre']]],
+  ['metaldeviceitem',['MetalDeviceItem',['../class_ogre_1_1_metal_device_item.html',1,'Ogre']]],
+  ['metaldevicelist',['MetalDeviceList',['../class_ogre_1_1_metal_device_list.html',1,'Ogre']]],
   ['metaldiscardbuffer',['MetalDiscardBuffer',['../class_ogre_1_1_metal_discard_buffer.html',1,'Ogre']]],
   ['metaldiscardbuffermanager',['MetalDiscardBufferManager',['../class_ogre_1_1_metal_discard_buffer_manager.html',1,'Ogre']]],
   ['metaldynamicbuffer',['MetalDynamicBuffer',['../class_ogre_1_1_metal_dynamic_buffer.html',1,'Ogre']]],

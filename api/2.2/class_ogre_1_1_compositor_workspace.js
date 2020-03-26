@@ -50,5 +50,7 @@ var class_ogre_1_1_compositor_workspace =
     [ "resetAllNumPassesLeft", "class_ogre_1_1_compositor_workspace.html#aa68ff5efb511fe9e4a230c7c85c86b16", null ],
     [ "setAmalgamatedProfiling", "class_ogre_1_1_compositor_workspace.html#a22b27dcc2d6aa2dcd9a046f5d9514ca4", null ],
     [ "setEnabled", "class_ogre_1_1_compositor_workspace.html#aff2f90e51c1c76996937466da8a24f42", null ],
-    [ "setListener", "class_ogre_1_1_compositor_workspace.html#aa4cbcc3ff70190a4a26dc6ae55cd8ebb", null ]
+    [ "setListener", "class_ogre_1_1_compositor_workspace.html#aa4cbcc3ff70190a4a26dc6ae55cd8ebb", null ],
+    [ "setViewportModifier", "class_ogre_1_1_compositor_workspace.html#ad0225c0414c62f12774f0cfa167836ff", null ],
+    [ "setViewportModifierMask", "class_ogre_1_1_compositor_workspace.html#a06a1289ec641a4e072975de491e236b5", null ]
 ];

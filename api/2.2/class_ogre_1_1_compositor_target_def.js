@@ -1,12 +1,13 @@
 var class_ogre_1_1_compositor_target_def =
 [
-    [ "CompositorTargetDef", "class_ogre_1_1_compositor_target_def.html#a34a03d51aec56a213277ede9b79d1b61", null ],
+    [ "CompositorTargetDef", "class_ogre_1_1_compositor_target_def.html#a25f8fc20236f2e40f314c8b67ba230d3", null ],
     [ "~CompositorTargetDef", "class_ogre_1_1_compositor_target_def.html#ad25509348b01aa555d19b8676f7d0aba", null ],
     [ "addPass", "class_ogre_1_1_compositor_target_def.html#afa511d365119e929ce93cebfcc97748d", null ],
     [ "getCompositorPasses", "class_ogre_1_1_compositor_target_def.html#a5e40d2000179fd8d3e65f8502ed464ad", null ],
     [ "getCompositorPassesNonConst", "class_ogre_1_1_compositor_target_def.html#ab3eaf5cd3427abe9fa00bfdd0b37333f", null ],
     [ "getParentNodeDef", "class_ogre_1_1_compositor_target_def.html#abc732d27c5f0de84f6f561dd1bcf5337", null ],
     [ "getRenderTargetName", "class_ogre_1_1_compositor_target_def.html#a01279e02e2b6b62c14f6a30c1995c73b", null ],
+    [ "getRenderTargetNameStr", "class_ogre_1_1_compositor_target_def.html#af6102127e18a2e536fb204f372e80e3d", null ],
     [ "getRtIndex", "class_ogre_1_1_compositor_target_def.html#a0b1ae1e0eff65e010cc09919bb449855", null ],
     [ "getShadowMapSupportedLightTypes", "class_ogre_1_1_compositor_target_def.html#a1341c5b11d6006eafae99a9cf2f9cc93", null ],
     [ "operator delete", "class_ogre_1_1_compositor_target_def.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],

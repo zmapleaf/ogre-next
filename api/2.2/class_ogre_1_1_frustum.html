@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8561b8de767cf64740c37eb1aeddd529"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_movable_object.html#a8561b8de767cf64740c37eb1aeddd529">_updateRenderQueue</a> (<a class="el" href="class_ogre_1_1_render_queue.html">RenderQueue</a> *queue, <a class="el" href="class_ogre_1_1_camera.html">Camera</a> *camera, const <a class="el" href="class_ogre_1_1_camera.html">Camera</a> *lodCamera)</td></tr>
 <tr class="memdesc:a8561b8de767cf64740c37eb1aeddd529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal method by which the movable object must add <a class="el" href="class_ogre_1_1_renderable.html" title="Abstract class defining the interface all renderable objects must implement. ">Renderable</a> subclass instances to the rendering queue.  <a href="#a8561b8de767cf64740c37eb1aeddd529">More...</a><br /></td></tr>
 <tr class="separator:a8561b8de767cf64740c37eb1aeddd529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4c66fed80a7372f7898fccd1f821eb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#ab4c66fed80a7372f7898fccd1f821eb1">addPoseWeight</a> (size_t index, float w)</td></tr>
+<tr class="separator:ab4c66fed80a7372f7898fccd1f821eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98fe88f82f86eafa19308074495db809"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_movable_object.html#a98fe88f82f86eafa19308074495db809">addQueryFlags</a> (<a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> flags)</td></tr>
 <tr class="memdesc:a98fe88f82f86eafa19308074495db809"><td class="mdescLeft">&#160;</td><td class="mdescRight">As setQueryFlags, except the flags passed as parameters are appended to the existing flags on this object.  <a href="#a98fe88f82f86eafa19308074495db809">More...</a><br /></td></tr>
 <tr class="separator:a98fe88f82f86eafa19308074495db809"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,6 +296,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad0fb5a0812e643baa976f4cb6e6cabd2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_frustum.html#ad0fb5a0812e643baa976f4cb6e6cabd2">getNearClipDistance</a> (void) const</td></tr>
 <tr class="memdesc:ad0fb5a0812e643baa976f4cb6e6cabd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of the near clipping plane.  <a href="#ad0fb5a0812e643baa976f4cb6e6cabd2">More...</a><br /></td></tr>
 <tr class="separator:ad0fb5a0812e643baa976f4cb6e6cabd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5e636e36b57dda7d301d7fa30c1d1e"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#aab5e636e36b57dda7d301d7fa30c1d1e">getNumPoses</a> (void) const</td></tr>
+<tr class="separator:aab5e636e36b57dda7d301d7fa30c1d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47508d27a6c799998047c50ec43e9897"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#a47508d27a6c799998047c50ec43e9897">getNumWorldTransforms</a> (void) const</td></tr>
 <tr class="memdesc:a47508d27a6c799998047c50ec43e9897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of world transform matrices this renderable requires.  <a href="#a47508d27a6c799998047c50ec43e9897">More...</a><br /></td></tr>
 <tr class="separator:a47508d27a6c799998047c50ec43e9897"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -320,6 +324,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d9e689659160cac9735f00ece15c0d4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#a6d9e689659160cac9735f00ece15c0d4">getPolygonModeOverrideable</a> (void) const</td></tr>
 <tr class="memdesc:a6d9e689659160cac9735f00ece15c0d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether this renderable's chosen detail level can be overridden (downgraded) by the camera setting.  <a href="#a6d9e689659160cac9735f00ece15c0d4">More...</a><br /></td></tr>
 <tr class="separator:a6d9e689659160cac9735f00ece15c0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbdb6bfe33b416976de33ee15d467674"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#abbdb6bfe33b416976de33ee15d467674">getPoseHalfPrecision</a> () const</td></tr>
+<tr class="separator:abbdb6bfe33b416976de33ee15d467674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22289842e973a7a6b727c8cd32e9be9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#ad22289842e973a7a6b727c8cd32e9be9">getPoseNormals</a> () const</td></tr>
+<tr class="separator:ad22289842e973a7a6b727c8cd32e9be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb5da2caddd6050d8959ababb7a6dbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_tex_buffer_packed.html">TexBufferPacked</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#aeeb5da2caddd6050d8959ababb7a6dbc">getPoseTexBuffer</a> () const</td></tr>
+<tr class="separator:aeeb5da2caddd6050d8959ababb7a6dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45267a8b4917f3bbe76a2dc14f7122be"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#a45267a8b4917f3bbe76a2dc14f7122be">getPoseWeight</a> (size_t index) const</td></tr>
+<tr class="separator:a45267a8b4917f3bbe76a2dc14f7122be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b50fcb876b347cd3571b009f80eebd8"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#a5b50fcb876b347cd3571b009f80eebd8">getPoseWeights</a> () const</td></tr>
+<tr class="separator:a5b50fcb876b347cd3571b009f80eebd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa18aa6d76d454234023a602d7ce8a615"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_ogre_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_frustum.html#aa18aa6d76d454234023a602d7ce8a615">getPositionForViewUpdate</a> (void) const</td></tr>
 <tr class="memdesc:aa18aa6d76d454234023a602d7ce8a615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the derived position of this frustum.  <a href="#aa18aa6d76d454234023a602d7ce8a615">More...</a><br /></td></tr>
 <tr class="separator:aa18aa6d76d454234023a602d7ce8a615"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -376,7 +390,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0c7563dc12f2d0032121403cb4c6f5c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the <a class="el" href="class_ogre_1_1_hlms.html" title="HLMS stands for &quot;High Level Material System&quot;. ">Hlms</a> implementation should evaluate getUseIdentityProjection per object at runtime, or if it can assume the <a class="el" href="class_ogre_1_1_renderable.html" title="Abstract class defining the interface all renderable objects must implement. ">Renderable</a> will remain with the same setting until the datablock is flushed (performance optimization)  <a href="#a0c7563dc12f2d0032121403cb4c6f5c2">More...</a><br /></td></tr>
 <tr class="separator:a0c7563dc12f2d0032121403cb4c6f5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73de2dd2cc45eee54c7a9262ff6da180"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#a73de2dd2cc45eee54c7a9262ff6da180">getUseIdentityWorldMatrix</a> (void) const</td></tr>
-<tr class="memdesc:a73de2dd2cc45eee54c7a9262ff6da180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the world matrix is an identify matrix.  <a href="#a73de2dd2cc45eee54c7a9262ff6da180">More...</a><br /></td></tr>
+<tr class="memdesc:a73de2dd2cc45eee54c7a9262ff6da180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the world matrix is an identity matrix.  <a href="#a73de2dd2cc45eee54c7a9262ff6da180">More...</a><br /></td></tr>
 <tr class="separator:a73de2dd2cc45eee54c7a9262ff6da180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea1d826947d74dfb193c25cb2c1c7f7d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_ogre_platform_8h.html#af2652ba9f4945789c869d74d7e67cbcb">OGRE_DEPRECATED</a> const <a class="el" href="class_ogre_1_1_any.html">Any</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#aea1d826947d74dfb193c25cb2c1c7f7d">getUserAny</a> (void) const</td></tr>
 <tr class="separator:aea1d826947d74dfb193c25cb2c1c7f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -588,6 +602,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2108dfc322953a7bd429be8b62811e56"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#a2108dfc322953a7bd429be8b62811e56">setPolygonModeOverrideable</a> (bool override)</td></tr>
 <tr class="memdesc:a2108dfc322953a7bd429be8b62811e56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether this renderable's chosen detail level can be overridden (downgraded) by the camera setting.  <a href="#a2108dfc322953a7bd429be8b62811e56">More...</a><br /></td></tr>
 <tr class="separator:a2108dfc322953a7bd429be8b62811e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ba9ae3782f39ea03bee09534a982e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_renderable.html#a51ba9ae3782f39ea03bee09534a982e9">setPoseWeight</a> (size_t index, float w)</td></tr>
+<tr class="separator:a51ba9ae3782f39ea03bee09534a982e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf9929f83ec3ad3a0ffc1b5fdd249994"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_frustum.html#abf9929f83ec3ad3a0ffc1b5fdd249994">setProjectionType</a> (<a class="el" href="group___math.html#gaf5dd9a3d1fd373b17108baa16065b1ce">ProjectionType</a> pt)</td></tr>
 <tr class="memdesc:abf9929f83ec3ad3a0ffc1b5fdd249994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the type of projection to use (orthographic or perspective).  <a href="#abf9929f83ec3ad3a0ffc1b5fdd249994">More...</a><br /></td></tr>
 <tr class="separator:abf9929f83ec3ad3a0ffc1b5fdd249994"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1305,6 +1321,44 @@ Static Public Attributes</h2></td></tr>
 <dl class="section remark"><dt>Remarks</dt><dd>The engine will call this method when this object is to be rendered. The object must then create one or more <a class="el" href="class_ogre_1_1_renderable.html" title="Abstract class defining the interface all renderable objects must implement. ">Renderable</a> subclass instances which it places on the passed in Queue for rendering. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_ogre_1_1v1_1_1_billboard_set.html#a5abfe03ae0b89db4cbc9a115c066e972">Ogre::v1::BillboardSet</a>, <a class="el" href="class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a5c9d618439af4da4914ef17b1c9f41a0">Ogre::v1::StaticGeometry::Region</a>, <a class="el" href="class_ogre_1_1v1_1_1_manual_object.html#a7a69ffd45f45e209ea1b428f53379213">Ogre::v1::ManualObject</a>, <a class="el" href="class_ogre_1_1_particle_system.html#a019e800efe0cab9a825cbfb54319fa96">Ogre::ParticleSystem</a>, <a class="el" href="class_ogre_1_1v1_1_1_entity.html#a5d49767fb54b584c0f8bd80baf81d5f9">Ogre::v1::Entity</a>, <a class="el" href="class_ogre_1_1_light.html#a5a38124467ef557f7f93487407caf069">Ogre::Light</a>, <a class="el" href="class_ogre_1_1v1_1_1_billboard_chain.html#a945b90ea9b66f06318031711f85e30a0">Ogre::v1::BillboardChain</a>, and <a class="el" href="class_ogre_1_1_movable_plane.html#ad6a79a28d0e434dfe2d62b04ec998754">Ogre::MovablePlane</a>.</p>
+
+</div>
+</div>
+<a id="ab4c66fed80a7372f7898fccd1f821eb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c66fed80a7372f7898fccd1f821eb1">&#9670;&nbsp;</a></span>addPoseWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::Renderable::addPoseWeight </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_ogre_1_1_sub_item.html#a817e1a56ca66eb2ba7f27047f1a19c7a">Ogre::SubItem::getParent()</a>.</p>
 
 </div>
 </div>
@@ -2874,6 +2928,32 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aab5e636e36b57dda7d301d7fa30c1d1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5e636e36b57dda7d301d7fa30c1d1e">&#9670;&nbsp;</a></span>getNumPoses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned short Ogre::Renderable::getNumPoses </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a47508d27a6c799998047c50ec43e9897"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47508d27a6c799998047c50ec43e9897">&#9670;&nbsp;</a></span>getNumWorldTransforms()</h2>
 
@@ -3112,6 +3192,134 @@ Static Public Attributes</h2></td></tr>
 <p>Reimplemented in <a class="el" href="class_ogre_1_1v1_1_1_border_renderable.html#ad0d81d3108f99f2e3282005743d92cb9">Ogre::v1::BorderRenderable</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="class_ogre_1_1v1_1_1_border_renderable.html#ad0d81d3108f99f2e3282005743d92cb9">Ogre::v1::BorderRenderable::getPolygonModeOverrideable()</a>.</p>
+
+</div>
+</div>
+<a id="abbdb6bfe33b416976de33ee15d467674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbdb6bfe33b416976de33ee15d467674">&#9670;&nbsp;</a></span>getPoseHalfPrecision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ogre::Renderable::getPoseHalfPrecision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad22289842e973a7a6b727c8cd32e9be9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22289842e973a7a6b727c8cd32e9be9">&#9670;&nbsp;</a></span>getPoseNormals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ogre::Renderable::getPoseNormals </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeeb5da2caddd6050d8959ababb7a6dbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb5da2caddd6050d8959ababb7a6dbc">&#9670;&nbsp;</a></span>getPoseTexBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ogre_1_1_tex_buffer_packed.html">TexBufferPacked</a>* Ogre::Renderable::getPoseTexBuffer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45267a8b4917f3bbe76a2dc14f7122be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45267a8b4917f3bbe76a2dc14f7122be">&#9670;&nbsp;</a></span>getPoseWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ogre::Renderable::getPoseWeight </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_ogre_1_1_sub_item.html#a817e1a56ca66eb2ba7f27047f1a19c7a">Ogre::SubItem::getParent()</a>.</p>
+
+</div>
+</div>
+<a id="a5b50fcb876b347cd3571b009f80eebd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b50fcb876b347cd3571b009f80eebd8">&#9670;&nbsp;</a></span>getPoseWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float* Ogre::Renderable::getPoseWeights </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3673,7 +3881,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns whether the world matrix is an identify matrix. </p>
+<p>Returns whether the world matrix is an identity matrix. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>It is up to the <a class="el" href="class_ogre_1_1_hlms.html" title="HLMS stands for &quot;High Level Material System&quot;. ">Hlms</a> implementation whether to honour this request. Take in mind changes of this value at runtime may not be seen until the datablock is flushed. It is implemented as a virtual call because this functionality isn't required very often (hence we save per-Renderable space for those that don't use it) and this function will be called at creation time to use a different shader; not during rendering time per <a class="el" href="class_ogre_1_1_renderable.html" title="Abstract class defining the interface all renderable objects must implement. ">Renderable</a>. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_ogre_1_1v1_1_1_billboard_set.html#a630376aad4b0cb411aeb0555b3b43626">Ogre::v1::BillboardSet</a>.</p>
@@ -6323,6 +6531,44 @@ template&lt;class Alloc &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a51ba9ae3782f39ea03bee09534a982e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51ba9ae3782f39ea03bee09534a982e9">&#9670;&nbsp;</a></span>setPoseWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::Renderable::setPoseWeight </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_ogre_1_1_sub_item.html#a817e1a56ca66eb2ba7f27047f1a19c7a">Ogre::SubItem::getParent()</a>.</p>
 
 </div>
 </div>

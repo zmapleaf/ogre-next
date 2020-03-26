@@ -395,9 +395,8 @@ var files =
       [ "D3D11Window", "class_ogre_1_1_d3_d11_window.html", "class_ogre_1_1_d3_d11_window" ],
       [ "D3D11WindowSwapChainBased", "class_ogre_1_1_d3_d11_window_swap_chain_based.html", "class_ogre_1_1_d3_d11_window_swap_chain_based" ]
     ] ],
-    [ "OgreD3D11WindowHwnd.h", "_ogre_d3_d11_window_hwnd_8h.html", [
-      [ "D3D11WindowHwnd", "class_ogre_1_1_d3_d11_window_hwnd.html", "class_ogre_1_1_d3_d11_window_hwnd" ]
-    ] ],
+    [ "OgreD3D11WindowHwnd.h", "_ogre_d3_d11_window_hwnd_8h.html", null ],
+    [ "OgreD3D11WindowWinRT.h", "_ogre_d3_d11_window_win_r_t_8h.html", null ],
     [ "OgreD3D9DepthBuffer.h", "_ogre_d3_d9_depth_buffer_8h.html", [
       [ "D3D9DepthBuffer", "class_ogre_1_1_d3_d9_depth_buffer.html", "class_ogre_1_1_d3_d9_depth_buffer" ]
     ] ],
@@ -629,12 +628,6 @@ var files =
     [ "OgreGL3PlusFrameBufferObject.h", "_ogre_g_l3_plus_frame_buffer_object_8h.html", [
       [ "GL3PlusFrameBufferObject", "class_ogre_1_1_g_l3_plus_frame_buffer_object.html", "class_ogre_1_1_g_l3_plus_frame_buffer_object" ]
     ] ],
-    [ "OgreGL3PlusGpuProgram.h", "_ogre_g_l3_plus_gpu_program_8h.html", [
-      [ "GL3PlusGpuProgram", "class_ogre_1_1_g_l3_plus_gpu_program.html", "class_ogre_1_1_g_l3_plus_gpu_program" ]
-    ] ],
-    [ "OgreGL3PlusGpuProgramManager.h", "_ogre_g_l3_plus_gpu_program_manager_8h.html", [
-      [ "GL3PlusGpuProgramManager", "class_ogre_1_1_g_l3_plus_gpu_program_manager.html", "class_ogre_1_1_g_l3_plus_gpu_program_manager" ]
-    ] ],
     [ "OgreGL3PlusHardwareBufferManager.h", "_ogre_g_l3_plus_hardware_buffer_manager_8h.html", "_ogre_g_l3_plus_hardware_buffer_manager_8h" ],
     [ "OgreGL3PlusHardwareCounterBuffer.h", "_ogre_g_l3_plus_hardware_counter_buffer_8h.html", [
       [ "GL3PlusHardwareCounterBuffer", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_counter_buffer.html", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_counter_buffer" ]
@@ -742,6 +735,15 @@ var files =
     [ "Vao/OgreGL3PlusVertexArrayObject.h", "_vao_2_ogre_g_l3_plus_vertex_array_object_8h.html", [
       [ "GL3PlusVertexArrayObject", "struct_ogre_1_1_g_l3_plus_vertex_array_object.html", "struct_ogre_1_1_g_l3_plus_vertex_array_object" ]
     ] ],
+    [ "OgreGLES2AsyncTicket.h", "_ogre_g_l_e_s2_async_ticket_8h.html", [
+      [ "GLES2AsyncTicket", "class_ogre_1_1_g_l_e_s2_async_ticket.html", "class_ogre_1_1_g_l_e_s2_async_ticket" ]
+    ] ],
+    [ "OgreGLES2BufferInterface.h", "_ogre_g_l_e_s2_buffer_interface_8h.html", [
+      [ "GLES2BufferInterface", "class_ogre_1_1_g_l_e_s2_buffer_interface.html", "class_ogre_1_1_g_l_e_s2_buffer_interface" ]
+    ] ],
+    [ "OgreGLES2ConstBufferPacked.h", "_ogre_g_l_e_s2_const_buffer_packed_8h.html", [
+      [ "GLES2ConstBufferPacked", "class_ogre_1_1_g_l_e_s2_const_buffer_packed.html", "class_ogre_1_1_g_l_e_s2_const_buffer_packed" ]
+    ] ],
     [ "OgreGLES2Context.h", "_ogre_g_l_e_s2_context_8h.html", [
       [ "GLES2Context", "class_ogre_1_1_g_l_e_s2_context.html", "class_ogre_1_1_g_l_e_s2_context" ]
     ] ],
@@ -755,6 +757,14 @@ var files =
     [ "OgreGLES2DepthBuffer.h", "_ogre_g_l_e_s2_depth_buffer_8h.html", [
       [ "GLES2DepthBuffer", "class_ogre_1_1_g_l_e_s2_depth_buffer.html", "class_ogre_1_1_g_l_e_s2_depth_buffer" ]
     ] ],
+    [ "OgreGLES2DepthTexture.h", "_ogre_g_l_e_s2_depth_texture_8h.html", [
+      [ "GLES2DepthTexture", "class_ogre_1_1_g_l_e_s2_depth_texture.html", "class_ogre_1_1_g_l_e_s2_depth_texture" ],
+      [ "GLES2DepthTextureTarget", "class_ogre_1_1_g_l_e_s2_depth_texture_target.html", "class_ogre_1_1_g_l_e_s2_depth_texture_target" ],
+      [ "GLES2DepthPixelBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_depth_pixel_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_depth_pixel_buffer" ]
+    ] ],
+    [ "OgreGLES2DynamicBuffer.h", "_ogre_g_l_e_s2_dynamic_buffer_8h.html", [
+      [ "GLES2DynamicBuffer", "class_ogre_1_1_g_l_e_s2_dynamic_buffer.html", "class_ogre_1_1_g_l_e_s2_dynamic_buffer" ]
+    ] ],
     [ "OgreGLES2FBOMultiRenderTarget.h", "_ogre_g_l_e_s2_f_b_o_multi_render_target_8h.html", [
       [ "GLES2FBOMultiRenderTarget", "class_ogre_1_1_g_l_e_s2_f_b_o_multi_render_target.html", "class_ogre_1_1_g_l_e_s2_f_b_o_multi_render_target" ]
     ] ],
@@ -765,9 +775,6 @@ var files =
     ] ],
     [ "OgreGLES2FrameBufferObject.h", "_ogre_g_l_e_s2_frame_buffer_object_8h.html", [
       [ "GLES2FrameBufferObject", "class_ogre_1_1_g_l_e_s2_frame_buffer_object.html", "class_ogre_1_1_g_l_e_s2_frame_buffer_object" ]
-    ] ],
-    [ "OgreGLES2GpuProgram.h", "_ogre_g_l_e_s2_gpu_program_8h.html", [
-      [ "GLES2GpuProgram", "class_ogre_1_1_g_l_e_s2_gpu_program.html", "class_ogre_1_1_g_l_e_s2_gpu_program" ]
     ] ],
     [ "OgreGLES2GpuProgramManager.h", "_ogre_g_l_e_s2_gpu_program_manager_8h.html", [
       [ "GLES2GpuProgramManager", "class_ogre_1_1_g_l_e_s2_gpu_program_manager.html", "class_ogre_1_1_g_l_e_s2_gpu_program_manager" ]
@@ -784,61 +791,82 @@ var files =
     ] ],
     [ "OgreGLES2HardwarePixelBuffer.h", "_ogre_g_l_e_s2_hardware_pixel_buffer_8h.html", [
       [ "GLES2HardwarePixelBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_hardware_pixel_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_hardware_pixel_buffer" ],
-      [ "GLES2RenderBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_render_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_render_buffer" ],
-      [ "GLES2TextureBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_texture_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_texture_buffer" ]
+      [ "GLES2RenderBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_render_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_render_buffer" ]
     ] ],
     [ "OgreGLES2HardwareUniformBuffer.h", "_ogre_g_l_e_s2_hardware_uniform_buffer_8h.html", [
-      [ "GLES2HardwareUniformBuffer", "class_ogre_1_1_g_l_e_s2_hardware_uniform_buffer.html", "class_ogre_1_1_g_l_e_s2_hardware_uniform_buffer" ]
+      [ "GLES2HardwareUniformBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_hardware_uniform_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_hardware_uniform_buffer" ]
     ] ],
     [ "OgreGLES2HardwareVertexBuffer.h", "_ogre_g_l_e_s2_hardware_vertex_buffer_8h.html", [
       [ "GLES2HardwareVertexBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_hardware_vertex_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_hardware_vertex_buffer" ]
     ] ],
-    [ "OgreGLES2HlmsMacroblock.h", "_ogre_g_l_e_s2_hlms_macroblock_8h.html", null ],
+    [ "OgreGLES2HlmsPso.h", "_ogre_g_l_e_s2_hlms_pso_8h.html", null ],
     [ "OgreGLES2HlmsSamplerblock.h", "_ogre_g_l_e_s2_hlms_samplerblock_8h.html", null ],
-    [ "OgreGLES2InternalShaders.h", "_ogre_g_l_e_s2_internal_shaders_8h.html", "_ogre_g_l_e_s2_internal_shaders_8h" ],
     [ "OgreGLES2ManagedResource.h", "_ogre_g_l_e_s2_managed_resource_8h.html", "_ogre_g_l_e_s2_managed_resource_8h" ],
     [ "OgreGLES2ManagedResourceManager.h", "_ogre_g_l_e_s2_managed_resource_manager_8h.html", null ],
-    [ "OgreGLES2NullStateCacheManagerImp.h", "_ogre_g_l_e_s2_null_state_cache_manager_imp_8h.html", "_ogre_g_l_e_s2_null_state_cache_manager_imp_8h" ],
-    [ "OgreGLES2NullUniformCacheImp.h", "_ogre_g_l_e_s2_null_uniform_cache_imp_8h.html", "_ogre_g_l_e_s2_null_uniform_cache_imp_8h" ],
+    [ "OgreGLES2MultiSourceVertexBufferPool.h", "_ogre_g_l_e_s2_multi_source_vertex_buffer_pool_8h.html", [
+      [ "GLES2MultiSourceVertexBufferPool", "class_ogre_1_1_g_l_e_s2_multi_source_vertex_buffer_pool.html", "class_ogre_1_1_g_l_e_s2_multi_source_vertex_buffer_pool" ]
+    ] ],
+    [ "OgreGLES2NullTexture.h", "_ogre_g_l_e_s2_null_texture_8h.html", [
+      [ "GLES2NullTexture", "class_ogre_1_1_g_l_e_s2_null_texture.html", "class_ogre_1_1_g_l_e_s2_null_texture" ],
+      [ "GLES2NullTextureTarget", "class_ogre_1_1_g_l_e_s2_null_texture_target.html", "class_ogre_1_1_g_l_e_s2_null_texture_target" ],
+      [ "GLES2NullPixelBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_null_pixel_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_null_pixel_buffer" ]
+    ] ],
     [ "OgreGLES2PixelFormat.h", "_ogre_g_l_e_s2_pixel_format_8h.html", [
       [ "GLES2PixelUtil", "class_ogre_1_1_g_l_e_s2_pixel_util.html", "class_ogre_1_1_g_l_e_s2_pixel_util" ]
+    ] ],
+    [ "OgreGLES2PixelFormatToShaderType.h", "_ogre_g_l_e_s2_pixel_format_to_shader_type_8h.html", [
+      [ "GLES2PixelFormatToShaderType", "class_ogre_1_1_g_l_e_s2_pixel_format_to_shader_type.html", "class_ogre_1_1_g_l_e_s2_pixel_format_to_shader_type" ]
     ] ],
     [ "OgreGLES2Plugin.h", "_ogre_g_l_e_s2_plugin_8h.html", [
       [ "GLES2Plugin", "class_ogre_1_1_g_l_e_s2_plugin.html", "class_ogre_1_1_g_l_e_s2_plugin" ]
     ] ],
     [ "OgreGLES2Prerequisites.h", "_ogre_g_l_e_s2_prerequisites_8h.html", "_ogre_g_l_e_s2_prerequisites_8h" ],
-    [ "OgreGLES2RenderSystem.h", "_ogre_g_l_e_s2_render_system_8h.html", null ],
+    [ "OgreGLES2RenderSystem.h", "_ogre_g_l_e_s2_render_system_8h.html", [
+      [ "GLES2RenderSystem", "class_ogre_1_1_g_l_e_s2_render_system.html", "class_ogre_1_1_g_l_e_s2_render_system" ]
+    ] ],
     [ "OgreGLES2RenderTexture.h", "_ogre_g_l_e_s2_render_texture_8h.html", [
-      [ "GLES2CopyingRenderTexture", "class_ogre_1_1_g_l_e_s2_copying_render_texture.html", "class_ogre_1_1_g_l_e_s2_copying_render_texture" ],
-      [ "GLES2CopyingRTTManager", "class_ogre_1_1_g_l_e_s2_copying_r_t_t_manager.html", "class_ogre_1_1_g_l_e_s2_copying_r_t_t_manager" ],
       [ "GLES2RenderTexture", "class_ogre_1_1_g_l_e_s2_render_texture.html", "class_ogre_1_1_g_l_e_s2_render_texture" ],
       [ "GLES2RTTManager", "class_ogre_1_1_g_l_e_s2_r_t_t_manager.html", "class_ogre_1_1_g_l_e_s2_r_t_t_manager" ],
       [ "GLES2SurfaceDesc", "struct_ogre_1_1_g_l_e_s2_surface_desc.html", "struct_ogre_1_1_g_l_e_s2_surface_desc" ]
     ] ],
     [ "OgreGLES2RenderToVertexBuffer.h", "_ogre_g_l_e_s2_render_to_vertex_buffer_8h.html", [
-      [ "GLES2RenderToVertexBuffer", "class_ogre_1_1_g_l_e_s2_render_to_vertex_buffer.html", "class_ogre_1_1_g_l_e_s2_render_to_vertex_buffer" ]
+      [ "GLES2RenderToVertexBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_render_to_vertex_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_render_to_vertex_buffer" ]
     ] ],
-    [ "OgreGLES2StateCacheManager.h", "_ogre_g_l_e_s2_state_cache_manager_8h.html", "_ogre_g_l_e_s2_state_cache_manager_8h" ],
-    [ "OgreGLES2StateCacheManagerImp.h", "_ogre_g_l_e_s2_state_cache_manager_imp_8h.html", "_ogre_g_l_e_s2_state_cache_manager_imp_8h" ],
+    [ "OgreGLES2StagingBuffer.h", "_ogre_g_l_e_s2_staging_buffer_8h.html", [
+      [ "GLES2StagingBuffer", "class_ogre_1_1_g_l_e_s2_staging_buffer.html", "class_ogre_1_1_g_l_e_s2_staging_buffer" ]
+    ] ],
     [ "OgreGLES2Support.h", "_ogre_g_l_e_s2_support_8h.html", [
       [ "GLES2Support", "class_ogre_1_1_g_l_e_s2_support.html", "class_ogre_1_1_g_l_e_s2_support" ]
+    ] ],
+    [ "OgreGLES2TexBufferEmulatedPacked.h", "_ogre_g_l_e_s2_tex_buffer_emulated_packed_8h.html", [
+      [ "GLES2TexBufferEmulatedPacked", "class_ogre_1_1_g_l_e_s2_tex_buffer_emulated_packed.html", "class_ogre_1_1_g_l_e_s2_tex_buffer_emulated_packed" ]
     ] ],
     [ "OgreGLES2Texture.h", "_ogre_g_l_e_s2_texture_8h.html", [
       [ "GLES2Texture", "class_ogre_1_1_g_l_e_s2_texture.html", "class_ogre_1_1_g_l_e_s2_texture" ]
     ] ],
+    [ "OgreGLES2TextureBuffer.h", "_ogre_g_l_e_s2_texture_buffer_8h.html", [
+      [ "GLES2TextureBuffer", "class_ogre_1_1v1_1_1_g_l_e_s2_texture_buffer.html", "class_ogre_1_1v1_1_1_g_l_e_s2_texture_buffer" ]
+    ] ],
     [ "OgreGLES2TextureManager.h", "_ogre_g_l_e_s2_texture_manager_8h.html", [
       [ "GLES2TextureManager", "class_ogre_1_1_g_l_e_s2_texture_manager.html", "class_ogre_1_1_g_l_e_s2_texture_manager" ]
     ] ],
-    [ "OgreGLES2UniformCache.h", "_ogre_g_l_e_s2_uniform_cache_8h.html", "_ogre_g_l_e_s2_uniform_cache_8h" ],
-    [ "OgreGLES2UniformCacheImp.h", "_ogre_g_l_e_s2_uniform_cache_imp_8h.html", "_ogre_g_l_e_s2_uniform_cache_imp_8h" ],
     [ "EGL/Android/OgreGLES2Util.h", "_e_g_l_2_android_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_android_2_ogre_g_l_e_s2_util_8h" ],
     [ "EGL/Emscripten/OgreGLES2Util.h", "_e_g_l_2_emscripten_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_emscripten_2_ogre_g_l_e_s2_util_8h" ],
     [ "EGL/OgreGLES2Util.h", "_e_g_l_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_ogre_g_l_e_s2_util_8h" ],
     [ "EGL/WIN32/OgreGLES2Util.h", "_e_g_l_2_w_i_n32_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_w_i_n32_2_ogre_g_l_e_s2_util_8h" ],
     [ "EGL/X11/OgreGLES2Util.h", "_e_g_l_2_x11_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_x11_2_ogre_g_l_e_s2_util_8h" ],
     [ "NaCl/OgreGLES2Util.h", "_na_cl_2_ogre_g_l_e_s2_util_8h.html", "_na_cl_2_ogre_g_l_e_s2_util_8h" ],
-    [ "OgreGLES2VertexDeclaration.h", "_ogre_g_l_e_s2_vertex_declaration_8h.html", [
-      [ "GLES2VertexDeclaration", "class_ogre_1_1v1_1_1_g_l_e_s2_vertex_declaration.html", "class_ogre_1_1v1_1_1_g_l_e_s2_vertex_declaration" ]
+    [ "OgreGLES2VaoManager.h", "_ogre_g_l_e_s2_vao_manager_8h.html", [
+      [ "GLES2VaoManager", "class_ogre_1_1_g_l_e_s2_vao_manager.html", "class_ogre_1_1_g_l_e_s2_vao_manager" ],
+      [ "Block", "struct_ogre_1_1_g_l_e_s2_vao_manager_1_1_block.html", "struct_ogre_1_1_g_l_e_s2_vao_manager_1_1_block" ],
+      [ "StrideChanger", "struct_ogre_1_1_g_l_e_s2_vao_manager_1_1_stride_changer.html", "struct_ogre_1_1_g_l_e_s2_vao_manager_1_1_stride_changer" ],
+      [ "VertexBinding", "struct_ogre_1_1_g_l_e_s2_vao_manager_1_1_vao_1_1_vertex_binding.html", "struct_ogre_1_1_g_l_e_s2_vao_manager_1_1_vao_1_1_vertex_binding" ]
+    ] ],
+    [ "OgreGLES2VertexArrayObject.h", "_ogre_g_l_e_s2_vertex_array_object_8h.html", [
+      [ "GLES2OldVertexArrayObject", "class_ogre_1_1_g_l_e_s2_old_vertex_array_object.html", "class_ogre_1_1_g_l_e_s2_old_vertex_array_object" ]
+    ] ],
+    [ "Vao/OgreGLES2VertexArrayObject.h", "_vao_2_ogre_g_l_e_s2_vertex_array_object_8h.html", [
+      [ "GLES2VertexArrayObject", "struct_ogre_1_1_g_l_e_s2_vertex_array_object.html", "struct_ogre_1_1_g_l_e_s2_vertex_array_object" ]
     ] ],
     [ "OgreGLSLESCgProgram.h", "_ogre_g_l_s_l_e_s_cg_program_8h.html", [
       [ "GLSLESCgProgram", "class_ogre_1_1_g_l_s_l_e_s_cg_program.html", "class_ogre_1_1_g_l_s_l_e_s_cg_program" ],
@@ -849,9 +877,6 @@ var files =
       [ "GLSLESCgProgramFactory", "class_ogre_1_1_g_l_s_l_e_s_cg_program_factory.html", "class_ogre_1_1_g_l_s_l_e_s_cg_program_factory" ]
     ] ],
     [ "OgreGLSLESExtSupport.h", "_ogre_g_l_s_l_e_s_ext_support_8h.html", "_ogre_g_l_s_l_e_s_ext_support_8h" ],
-    [ "OgreGLSLESGpuProgram.h", "_ogre_g_l_s_l_e_s_gpu_program_8h.html", [
-      [ "GLSLESGpuProgram", "class_ogre_1_1_g_l_s_l_e_s_gpu_program.html", "class_ogre_1_1_g_l_s_l_e_s_gpu_program" ]
-    ] ],
     [ "OgreGLSLESLinkProgram.h", "_ogre_g_l_s_l_e_s_link_program_8h.html", [
       [ "GLSLESLinkProgram", "class_ogre_1_1_g_l_s_l_e_s_link_program.html", "class_ogre_1_1_g_l_s_l_e_s_link_program" ]
     ] ],
@@ -861,15 +886,7 @@ var files =
     [ "OgreGLSLESPreprocessor.h", "_ogre_g_l_s_l_e_s_preprocessor_8h.html", [
       [ "CPreprocessor", "class_ogre_1_1_c_preprocessor.html", "class_ogre_1_1_c_preprocessor" ]
     ] ],
-    [ "OgreGLSLESProgram.h", "_ogre_g_l_s_l_e_s_program_8h.html", [
-      [ "GLSLESProgram", "class_ogre_1_1_g_l_s_l_e_s_program.html", "class_ogre_1_1_g_l_s_l_e_s_program" ],
-      [ "CmdOptimisation", "class_ogre_1_1_g_l_s_l_e_s_program_1_1_cmd_optimisation.html", "class_ogre_1_1_g_l_s_l_e_s_program_1_1_cmd_optimisation" ],
-      [ "CmdPreprocessorDefines", "class_ogre_1_1_g_l_s_l_e_s_program_1_1_cmd_preprocessor_defines.html", "class_ogre_1_1_g_l_s_l_e_s_program_1_1_cmd_preprocessor_defines" ]
-    ] ],
     [ "OgreGLSLESProgramCommon.h", "_ogre_g_l_s_l_e_s_program_common_8h.html", "_ogre_g_l_s_l_e_s_program_common_8h" ],
-    [ "OgreGLSLESProgramFactory.h", "_ogre_g_l_s_l_e_s_program_factory_8h.html", [
-      [ "GLSLESProgramFactory", "class_ogre_1_1_g_l_s_l_e_s_program_factory.html", "class_ogre_1_1_g_l_s_l_e_s_program_factory" ]
-    ] ],
     [ "OgreGLSLESProgramManagerCommon.h", "_ogre_g_l_s_l_e_s_program_manager_common_8h.html", [
       [ "GLSLESProgramManagerCommon", "class_ogre_1_1_g_l_s_l_e_s_program_manager_common.html", "class_ogre_1_1_g_l_s_l_e_s_program_manager_common" ]
     ] ],
@@ -878,6 +895,14 @@ var files =
     ] ],
     [ "OgreGLSLESProgramPipelineManager.h", "_ogre_g_l_s_l_e_s_program_pipeline_manager_8h.html", [
       [ "GLSLESProgramPipelineManager", "class_ogre_1_1_g_l_s_l_e_s_program_pipeline_manager.html", "class_ogre_1_1_g_l_s_l_e_s_program_pipeline_manager" ]
+    ] ],
+    [ "OgreGLSLESShader.h", "_ogre_g_l_s_l_e_s_shader_8h.html", [
+      [ "GLSLESShader", "class_ogre_1_1_g_l_s_l_e_s_shader.html", "class_ogre_1_1_g_l_s_l_e_s_shader" ],
+      [ "CmdOptimisation", "class_ogre_1_1_g_l_s_l_e_s_shader_1_1_cmd_optimisation.html", "class_ogre_1_1_g_l_s_l_e_s_shader_1_1_cmd_optimisation" ],
+      [ "CmdPreprocessorDefines", "class_ogre_1_1_g_l_s_l_e_s_shader_1_1_cmd_preprocessor_defines.html", "class_ogre_1_1_g_l_s_l_e_s_shader_1_1_cmd_preprocessor_defines" ]
+    ] ],
+    [ "OgreGLSLESShaderFactory.h", "_ogre_g_l_s_l_e_s_shader_factory_8h.html", [
+      [ "GLSLESShaderFactory", "class_ogre_1_1_g_l_s_l_e_s_shader_factory.html", "class_ogre_1_1_g_l_s_l_e_s_shader_factory" ]
     ] ],
     [ "OgreGLSLExtSupport.h", "_ogre_g_l_s_l_ext_support_8h.html", "_ogre_g_l_s_l_ext_support_8h" ],
     [ "OgreGLSLMonolithicProgram.h", "_ogre_g_l_s_l_monolithic_program_8h.html", [
@@ -975,7 +1000,7 @@ var files =
     [ "OgreHlmsLowLevel.h", "_ogre_hlms_low_level_8h.html", null ],
     [ "OgreHlmsLowLevelDatablock.h", "_ogre_hlms_low_level_datablock_8h.html", null ],
     [ "OgreHlmsManager.h", "_ogre_hlms_manager_8h.html", "_ogre_hlms_manager_8h" ],
-    [ "OgreHlmsPbs.h", "_ogre_hlms_pbs_8h.html", "_ogre_hlms_pbs_8h" ],
+    [ "OgreHlmsPbs.h", "_ogre_hlms_pbs_8h.html", null ],
     [ "OgreHlmsPbsDatablock.h", "_ogre_hlms_pbs_datablock_8h.html", "_ogre_hlms_pbs_datablock_8h" ],
     [ "OgreHlmsPbsMobile.h", "_ogre_hlms_pbs_mobile_8h.html", null ],
     [ "OgreHlmsPbsMobileDatablock.h", "_ogre_hlms_pbs_mobile_datablock_8h.html", null ],
@@ -1210,7 +1235,9 @@ var files =
     ] ],
     [ "OgreMetalDescriptorSetTexture.h", "_ogre_metal_descriptor_set_texture_8h.html", null ],
     [ "OgreMetalDevice.h", "_ogre_metal_device_8h.html", [
-      [ "MetalDevice", "struct_ogre_1_1_metal_device.html", "struct_ogre_1_1_metal_device" ]
+      [ "MetalDevice", "struct_ogre_1_1_metal_device.html", "struct_ogre_1_1_metal_device" ],
+      [ "MetalDeviceItem", "class_ogre_1_1_metal_device_item.html", "class_ogre_1_1_metal_device_item" ],
+      [ "MetalDeviceList", "class_ogre_1_1_metal_device_list.html", "class_ogre_1_1_metal_device_list" ]
     ] ],
     [ "OgreMetalDiscardBufferManager.h", "_ogre_metal_discard_buffer_manager_8h.html", "_ogre_metal_discard_buffer_manager_8h" ],
     [ "OgreMetalDynamicBuffer.h", "_ogre_metal_dynamic_buffer_8h.html", [
@@ -1418,6 +1445,7 @@ var files =
     [ "OgreOldSkeletonInstance.h", "_ogre_old_skeleton_instance_8h.html", null ],
     [ "OgreOldSkeletonManager.h", "_ogre_old_skeleton_manager_8h.html", null ],
     [ "OgreOptimisedUtil.h", "_ogre_optimised_util_8h.html", "_ogre_optimised_util_8h" ],
+    [ "OgreOSVersionHelpers.h", "_ogre_o_s_version_helpers_8h.html", "_ogre_o_s_version_helpers_8h" ],
     [ "OgreOSXCocoaContext.h", "_ogre_o_s_x_cocoa_context_8h.html", [
       [ "CocoaContext", "class_ogre_1_1_cocoa_context.html", "class_ogre_1_1_cocoa_context" ]
     ] ],
@@ -1665,6 +1693,13 @@ var files =
       [ "Param", "struct_ogre_1_1_shader_params_1_1_param.html", "struct_ogre_1_1_shader_params_1_1_param" ]
     ] ],
     [ "OgreShaderPrerequisites.h", "_ogre_shader_prerequisites_8h.html", "_ogre_shader_prerequisites_8h" ],
+    [ "OgreShaderPrimitives.h", "_ogre_shader_primitives_8h.html", [
+      [ "float2", "struct_ogre_1_1float2.html", "struct_ogre_1_1float2" ],
+      [ "float4", "struct_ogre_1_1float4.html", "struct_ogre_1_1float4" ],
+      [ "float4x4", "struct_ogre_1_1float4x4.html", "struct_ogre_1_1float4x4" ],
+      [ "type4", "struct_ogre_1_1type4.html", "struct_ogre_1_1type4" ],
+      [ "uint4", "struct_ogre_1_1uint4.html", "struct_ogre_1_1uint4" ]
+    ] ],
     [ "OgreShaderProgram.h", "_ogre_shader_program_8h.html", null ],
     [ "OgreShaderProgramManager.h", "_ogre_shader_program_manager_8h.html", null ],
     [ "OgreShaderProgramProcessor.h", "_ogre_shader_program_processor_8h.html", null ],

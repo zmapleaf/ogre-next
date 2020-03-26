@@ -7,6 +7,8 @@ var searchData=
   ['lerp',['lerp',['../class_ogre_1_1_math.html#a9e52e3a4ea3e3867b6400a68ff010866',1,'Ogre::Math']]],
   ['lessnonpod',['lessNonPod',['../struct_ogre_1_1_hlms_pso.html#a96f75c799a4f17cc425c4a1372f16ae5',1,'Ogre::HlmsPso']]],
   ['lessthanexcludepassdata',['lessThanExcludePassData',['../struct_ogre_1_1_hlms_pso.html#a21993177743971b2fc5b88dd9b57cd26',1,'Ogre::HlmsPso']]],
+  ['lexeme',['lexeme',['../struct_ogre_1_1_script_token.html#aa19ea4cbc50a09c0657bce9ab053a1b6',1,'Ogre::ScriptToken']]],
+  ['lexemeequals',['lexemeEquals',['../struct_ogre_1_1_script_token.html#a0c74543d42f1f36c73ecfd76b4177073',1,'Ogre::ScriptToken']]],
   ['licenseexpired',['licenseExpired',['../class_ogre_1_1v1_1_1_hardware_buffer_licensee.html#a79993f3120fffb36d8c97cafc84ea938',1,'Ogre::v1::HardwareBufferLicensee::licenseExpired()'],['../class_ogre_1_1v1_1_1_temp_blended_buffer_info.html#ac10864e7fb8019bab5dc6a4ee13e331c',1,'Ogre::v1::TempBlendedBufferInfo::licenseExpired()']]],
   ['light',['Light',['../class_ogre_1_1_light.html#a2e562e3231d1ebdbebb009b5d4bc9af4',1,'Ogre::Light']]],
   ['lightclosest',['LightClosest',['../struct_ogre_1_1_light_closest.html#aab0691f8197b06e2c28bc74dbf9b6522',1,'Ogre::LightClosest::LightClosest()'],['../struct_ogre_1_1_light_closest.html#aac9b931e3ccda0855b8b424732d57d5e',1,'Ogre::LightClosest::LightClosest(Light *_light, size_t _globalIndex, Real _distance)']]],

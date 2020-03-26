@@ -64,7 +64,6 @@ var searchData=
   ['d3d11videomode',['D3D11VideoMode',['../class_ogre_1_1_d3_d11_video_mode.html',1,'Ogre']]],
   ['d3d11videomodelist',['D3D11VideoModeList',['../class_ogre_1_1_d3_d11_video_mode_list.html',1,'Ogre']]],
   ['d3d11window',['D3D11Window',['../class_ogre_1_1_d3_d11_window.html',1,'Ogre']]],
-  ['d3d11windowhwnd',['D3D11WindowHwnd',['../class_ogre_1_1_d3_d11_window_hwnd.html',1,'Ogre']]],
   ['d3d11windowswapchainbased',['D3D11WindowSwapChainBased',['../class_ogre_1_1_d3_d11_window_swap_chain_based.html',1,'Ogre']]],
   ['d3d9depthbuffer',['D3D9DepthBuffer',['../class_ogre_1_1_d3_d9_depth_buffer.html',1,'Ogre']]],
   ['d3d9device',['D3D9Device',['../class_ogre_1_1_d3_d9_device.html',1,'Ogre']]],

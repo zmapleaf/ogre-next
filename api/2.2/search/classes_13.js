@@ -70,5 +70,8 @@ var searchData=
   ['trect_3c_20real_20_3e',['TRect&lt; Real &gt;',['../struct_ogre_1_1_t_rect.html',1,'Ogre']]],
   ['triangle',['Triangle',['../struct_ogre_1_1_lod_data_1_1_triangle.html',1,'Ogre::LodData::Triangle'],['../struct_ogre_1_1v1_1_1_edge_data_1_1_triangle.html',1,'Ogre::v1::EdgeData::Triangle']]],
   ['triplanartexturing',['TriplanarTexturing',['../class_ogre_1_1_r_t_shader_1_1_triplanar_texturing.html',1,'Ogre::RTShader']]],
-  ['triplanartexturingfactory',['TriplanarTexturingFactory',['../class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html',1,'Ogre::RTShader']]]
+  ['triplanartexturingfactory',['TriplanarTexturingFactory',['../class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html',1,'Ogre::RTShader']]],
+  ['type4',['type4',['../struct_ogre_1_1type4.html',1,'Ogre']]],
+  ['type4_3c_20float_20_3e',['type4&lt; float &gt;',['../struct_ogre_1_1type4.html',1,'Ogre']]],
+  ['type4_3c_20uint32_20_3e',['type4&lt; uint32 &gt;',['../struct_ogre_1_1type4.html',1,'Ogre']]]
 ];

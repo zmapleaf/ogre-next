@@ -38,7 +38,7 @@ var class_ogre_1_1_cubemap_probe =
     [ "set", "class_ogre_1_1_cubemap_probe.html#a9e2f39fb9b255a0acf3148c29833eaec", null ],
     [ "setPriority", "class_ogre_1_1_cubemap_probe.html#ab75fa535ffb665951d4cd0e91a49973d", null ],
     [ "setStatic", "class_ogre_1_1_cubemap_probe.html#a5db3d22c3c3e3df230ff795b088a7ddd", null ],
-    [ "setTextureParams", "class_ogre_1_1_cubemap_probe.html#aa790f8b5e062285235e9f255f3805336", null ],
+    [ "setTextureParams", "class_ogre_1_1_cubemap_probe.html#a44e6bd7014482143a0ac5f82095ac520", null ],
     [ "ParallaxCorrectedCubemap", "class_ogre_1_1_cubemap_probe.html#adfaa2647f1b92d611df37466d89734c5", null ],
     [ "ParallaxCorrectedCubemapAuto", "class_ogre_1_1_cubemap_probe.html#a555d0e85ae7f7f69a81cabae0603f01e", null ],
     [ "ParallaxCorrectedCubemapBase", "class_ogre_1_1_cubemap_probe.html#ad444fa7cc4c40f75a48101f88ff6c589", null ],

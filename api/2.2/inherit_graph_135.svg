@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="struct_ogre_1_1_descriptor_set_uav_1_1_texture_slot.html" target="_top" xlink:title="Ogre::DescriptorSetUav\l::TextureSlot">
+<g id="a_node1"><a xlink:href="struct_ogre_1_1_descriptor_set_uav_1_1_buffer_slot.html" target="_top" xlink:title="Ogre::DescriptorSetUav\l::BufferSlot">
 <polygon fill="none" stroke="#000000" points="0,-.5 0,-30.5 122,-30.5 122,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Ogre::DescriptorSetUav</text>
-<text text-anchor="middle" x="61" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::TextureSlot</text>
+<text text-anchor="middle" x="61" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BufferSlot</text>
 </a>
 </g>
 </g>

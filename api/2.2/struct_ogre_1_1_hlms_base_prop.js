@@ -31,6 +31,7 @@ var struct_ogre_1_1_hlms_base_prop =
     [ "FwdPlusDecalsSlotOffset", "struct_ogre_1_1_hlms_base_prop.html#abaa27ddcea8376695a829dc2c65dbba3", null ],
     [ "GL3Plus", "struct_ogre_1_1_hlms_base_prop.html#ab8ce6c72a32f3814ae75c344144d4a9d", null ],
     [ "GlAmdTrinaryMinMax", "struct_ogre_1_1_hlms_base_prop.html#a635853be5e7b80e14b463c00b47cfe9f", null ],
+    [ "GLES", "struct_ogre_1_1_hlms_base_prop.html#aed38fb54c4602a3aeffd98d7c1053a23", null ],
     [ "GlobalClipPlanes", "struct_ogre_1_1_hlms_base_prop.html#adc061a25daa6f9d57b11a21a843b8e39", null ],
     [ "Glsl", "struct_ogre_1_1_hlms_base_prop.html#a797ebbcb6c87a1eaa6e9e87f7b92d3ec", null ],
     [ "Glsles", "struct_ogre_1_1_hlms_base_prop.html#a6eb7197cc54a0a47b73548c58af0948d", null ],
@@ -59,6 +60,8 @@ var struct_ogre_1_1_hlms_base_prop =
     [ "NumShadowMapLights", "struct_ogre_1_1_hlms_base_prop.html#ace3cbe522d76fb401140dc4e34dad333", null ],
     [ "NumShadowMapTextures", "struct_ogre_1_1_hlms_base_prop.html#a947900d6885d779d04f859c6b0f5b2b1", null ],
     [ "Pose", "struct_ogre_1_1_hlms_base_prop.html#ad20efb9f96fcd8abff55af3369051f0d", null ],
+    [ "PoseHalfPrecision", "struct_ogre_1_1_hlms_base_prop.html#a3ecd6cf8034add88af97e2ae134aa28d", null ],
+    [ "PoseNormals", "struct_ogre_1_1_hlms_base_prop.html#ab1f0b2627b4b6c98986c9d187e245335", null ],
     [ "PrePass", "struct_ogre_1_1_hlms_base_prop.html#a6fba3acb9cb9f6e4a75351dd329603f4", null ],
     [ "PsoClipDistances", "struct_ogre_1_1_hlms_base_prop.html#ad202e3d0a12a2a27fae639651e91ee94", null ],
     [ "PssmBlend", "struct_ogre_1_1_hlms_base_prop.html#a1d77d2261a88be0f824ac81ca048f618", null ],
@@ -90,5 +93,6 @@ var struct_ogre_1_1_hlms_base_prop =
     [ "UvCount6", "struct_ogre_1_1_hlms_base_prop.html#a48af42a428f3b83fcce9488eda730004", null ],
     [ "UvCount7", "struct_ogre_1_1_hlms_base_prop.html#a6ed33d451345cc19508791f74adbc17c", null ],
     [ "UvCountPtrs", "struct_ogre_1_1_hlms_base_prop.html#ab098739635586c6b5d1af3c0fa993057", null ],
+    [ "VertexId", "struct_ogre_1_1_hlms_base_prop.html#af4f7b6a895e70387313ec12d9733e9ff", null ],
     [ "VPos", "struct_ogre_1_1_hlms_base_prop.html#a25342abeafb0bd4463a1e3c995cc338c", null ]
 ];

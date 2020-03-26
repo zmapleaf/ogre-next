@@ -120,6 +120,7 @@ Public Types</h2></td></tr>
 <a class="el" href="class_ogre_1_1_texture_gpu_listener.html#afe11bd546cf7315f4526488e7078cc7da4f559ca1853a24a28b40caae1acda604">MetadataCacheOutOfDate</a>, 
 <br />
 &#160;&#160;<a class="el" href="class_ogre_1_1_texture_gpu_listener.html#afe11bd546cf7315f4526488e7078cc7da704ea118c7e9f0b1598b528bdcbe1b26">ExceptionThrown</a>, 
+<a class="el" href="class_ogre_1_1_texture_gpu_listener.html#afe11bd546cf7315f4526488e7078cc7dae3eb70053cbf5401f22893cdb47f81a7">FsaaSettingAlteredByApi</a>, 
 <a class="el" href="class_ogre_1_1_texture_gpu_listener.html#afe11bd546cf7315f4526488e7078cc7dad4d9c6e3b7755f38d8d5f003be100257">ReadyForRendering</a>, 
 <a class="el" href="class_ogre_1_1_texture_gpu_listener.html#afe11bd546cf7315f4526488e7078cc7dabb2a61a0002ccca6afbde7588787e58e">Deleted</a>
 <br />
@@ -188,6 +189,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af906e6a5e055170b281a1986374b4754"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_texture_gpu_manager.html#af906e6a5e055170b281a1986374b4754">destroyAsyncTextureTicket</a> (<a class="el" href="class_ogre_1_1_async_texture_ticket.html">AsyncTextureTicket</a> *ticket)</td></tr>
 <tr class="separator:af906e6a5e055170b281a1986374b4754"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dc898578da3113affb78ed60f209b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_texture_gpu_manager.html#a7dc898578da3113affb78ed60f209b71">destroyTexture</a> (<a class="el" href="class_ogre_1_1_texture_gpu.html">TextureGpu</a> *texture)</td></tr>
+<tr class="memdesc:a7dc898578da3113affb78ed60f209b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a texture.  <a href="#a7dc898578da3113affb78ed60f209b71">More...</a><br /></td></tr>
 <tr class="separator:a7dc898578da3113affb78ed60f209b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2427f674c9e14b62b82740642406efa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_texture_gpu_manager.html#af2427f674c9e14b62b82740642406efa">dumpMemoryUsage</a> (<a class="el" href="class_ogre_1_1_log.html">Log</a> *log) const</td></tr>
 <tr class="separator:af2427f674c9e14b62b82740642406efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,6 +234,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0532737ff33e0b1357ea2be6662fb1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a064b32e7db16917d223a729f3ce03a96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_texture_gpu_manager.html#a064b32e7db16917d223a729f3ce03a96">hasPoolId</a> (<a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> poolId, <a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> width, <a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> height, <a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a> numMipmaps, <a class="el" href="group___image.html#ga71f09fe41a1db41186262f1aa5814a18">PixelFormatGpu</a> pixelFormat) const</td></tr>
 <tr class="separator:a064b32e7db16917d223a729f3ce03a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7152f97e84cd44d73afc86d77951120"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_texture_gpu_manager.html#ae7152f97e84cd44d73afc86d77951120">hasTextureResource</a> (const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;aliasName, const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;resourceGroup) const</td></tr>
+<tr class="memdesc:ae7152f97e84cd44d73afc86d77951120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a texture with the given aliasName exists, or if a <a class="el" href="class_ogre_1_1_resource_group_listener.html" title="This abstract class defines an interface which is called back during resource group loading to indica...">ResourceGroupListener</a> provides such texture, or if such texture exists (i.e.  <a href="#ae7152f97e84cd44d73afc86d77951120">More...</a><br /></td></tr>
+<tr class="separator:ae7152f97e84cd44d73afc86d77951120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a423e53613f85ab74171ac4bb291c2555"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_texture_gpu_manager.html#a423e53613f85ab74171ac4bb291c2555">importTextureMetadataCache</a> (const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;filename, const char *jsonString, bool bCreateReservedPools)</td></tr>
 <tr class="separator:a423e53613f85ab74171ac4bb291c2555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2012775609f389c5f205ee089a0c8b8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_texture_gpu_manager.html#ab2012775609f389c5f205ee089a0c8b8">notifyTextureChanged</a> (<a class="el" href="class_ogre_1_1_texture_gpu.html">TextureGpu</a> *texture, <a class="el" href="class_ogre_1_1_texture_gpu_listener.html#afe11bd546cf7315f4526488e7078cc7d">TextureGpuListener::Reason</a> reason, void *extraData)</td></tr>
@@ -411,6 +416,9 @@ Public Member Functions</h2></td></tr>
 <p>This listener will get called from the main thread.</p>
 <p>The texture may still have pending residency transitions (e.g. it may still be loading the 2x2 fallback)</p>
 <p>Cast <a class="el" href="class_ogre_1_1_exception.html" title="When thrown, provides information about an error that has occurred inside the engine. ">Exception</a> <em>e = reinterpret_cast&lt;<a class="el" href="class_ogre_1_1_exception.html" title="When thrown, provides information about an error that has occurred inside the engine. ">Exception</a></em>&gt;( extraData ); to know more info </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afe11bd546cf7315f4526488e7078cc7dae3eb70053cbf5401f22893cdb47f81a7"></a>FsaaSettingAlteredByApi&#160;</td><td class="fielddoc"><p>Requested FSAA (MSAA / CSAA / EQAA / etc) is not supported by the API, and thus the setting had to be downgraded. </p>
+<p>Note this may happen on device lost, and a new GPU became in use; thus it's possible for a <a class="el" href="class_ogre_1_1_texture_gpu.html">TextureGpu</a> to initially support certain FSAA but later change. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="afe11bd546cf7315f4526488e7078cc7dad4d9c6e3b7755f38d8d5f003be100257"></a>ReadyForRendering&#160;</td><td class="fielddoc"><p>This Reason is called when <a class="el" href="class_ogre_1_1_texture_gpu.html#abe10b3ea1bc20e616134af7b7f567446" title="Notifies it is safe to use the real data. Everything has been uploaded. ">TextureGpu::notifyDataIsReady</a> is called. </p>
 <p>This normally means worker thread is done loading texture from file and uploading it to GPU; and can now be used for rendering. It does NOT mean that <a class="el" href="namespace_ogre.html" title=" This source file is part of OGRE (Object-oriented Graphics Rendering Engine) For the latest info...">Ogre</a> has finished issueing rendering commands to a <a class="el" href="class_ogre_1_1_render_texture.html" title="This class represents a RenderTarget that renders to a Texture. ">RenderTexture</a> and is now ready to be presented to the monitor. </p>
@@ -1432,6 +1440,19 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Destroys a texture. </p>
+<p>Classes who wish to hold a weak reference should listen for <a class="el" href="class_ogre_1_1_texture_gpu_listener.html#afe11bd546cf7315f4526488e7078cc7dabb2a61a0002ccca6afbde7588787e58e">TextureGpuListener::Deleted</a> events and clear their pointers when the texture gets destroyed.</p>
+<p>Classes who wish to hold a stronger reference (note: it says 'stronger', not 'strong') should return true in <a class="el" href="class_ogre_1_1_texture_gpu_listener.html#a1427f0b635a4186cd6083a9bab879fa2" title="Return true if this TextureGpu should likely stay loaded or else graphical changes could occur...">TextureGpuListener::shouldStayLoaded</a>, but it is not guaranteed to be honoured.</p>
+<p>Users should iterate through listeners and see if any listener's shouldStayLoaded returns true. If you still want to destroy the texture, the class should still be able to handle <a class="el" href="class_ogre_1_1_texture_gpu_listener.html#afe11bd546cf7315f4526488e7078cc7dabb2a61a0002ccca6afbde7588787e58e">TextureGpuListener::Deleted</a> gracefully.</p>
+<p>See MemoryGameState::unloadUnusedTextures in Tutorial_MemoryGameState.cpp</p>
+<p><a class="el" href="namespace_ogre.html" title=" This source file is part of OGRE (Object-oriented Graphics Rendering Engine) For the latest info...">Ogre</a> doesn't call destroyTexture unless it's on shutdown or a specific Ogre-controlled texture (e.g. something related to PBS, Irradiance Fields, etc)</p>
+<p>Users are the ones in control of which textures get unloaded. It is suggested users group textures by criteria so that they can be loaded and unloaded in bulk (i.e. by relation to a level, or area in an open world game, by scene, etc) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="af2427f674c9e14b62b82740642406efa"></a>
@@ -2041,6 +2062,54 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae7152f97e84cd44d73afc86d77951120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7152f97e84cd44d73afc86d77951120">&#9670;&nbsp;</a></span>hasTextureResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ogre::TextureGpuManager::hasTextureResource </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>aliasName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>resourceGroup</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if a texture with the given aliasName exists, or if a <a class="el" href="class_ogre_1_1_resource_group_listener.html" title="This abstract class defines an interface which is called back during resource group loading to indica...">ResourceGroupListener</a> provides such texture, or if such texture exists (i.e. </p>
+<p>as a file) in the <a class="el" href="class_ogre_1_1_resource_group_manager.html" title="This singleton class manages the list of resource groups, and notifying the various resource managers...">ResourceGroupManager</a>.</p>
+<p>This can return true regardless of whether the texture has been loaded or created.</p>
+<p>Not to be confused with findTextureNoThrow which only looks for already created textures. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aliasName</td><td></td></tr>
+    <tr><td class="paramname">resourceGroup</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if there is such texture (loaded or not) False if there is no such texture </dd></dl>
+
+</div>
+</div>
 <a id="a423e53613f85ab74171ac4bb291c2555"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a423e53613f85ab74171ac4bb291c2555">&#9670;&nbsp;</a></span>importTextureMetadataCache()</h2>
 
@@ -2607,7 +2676,7 @@ template&lt;class Alloc &gt; </div>
 </div><div class="memdoc">
 
 <p>Reserves and preallocates a pool with the given parameters Returns the master texture that owns the pool. </p>
-<p>Destroy this pool with <a class="el" href="class_ogre_1_1_texture_gpu_manager.html#a7dc898578da3113affb78ed60f209b71">TextureGpuManager::destroyTexture</a> </p>
+<p>Destroy this pool with <a class="el" href="class_ogre_1_1_texture_gpu_manager.html#a7dc898578da3113affb78ed60f209b71" title="Destroys a texture. ">TextureGpuManager::destroyTexture</a> </p>
 
 </div>
 </div>

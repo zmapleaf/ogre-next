@@ -177,7 +177,6 @@ var class_ogre_1_1_d3_d9_render_system =
     [ "getDisplayMonitorCount", "class_ogre_1_1_d3_d9_render_system.html#a44795018c7a6f424849c23cb3947a240", null ],
     [ "getDriverVersion", "class_ogre_1_1_d3_d9_render_system.html#a6e6521ead351b0b7a8b2cc519b5f4dd6", null ],
     [ "getErrorDescription", "class_ogre_1_1_d3_d9_render_system.html#aaeb93c2e45c81e44b79eb7c2d37bea84", null ],
-    [ "getFixedPipelineEnabled", "class_ogre_1_1_d3_d9_render_system.html#a28c75f1ca83ffac6c50c8a2f43a48933", null ],
     [ "getFriendlyName", "class_ogre_1_1_d3_d9_render_system.html#a024a0b2a832c0fe5455add0a701c8911", null ],
     [ "getGlobalInstanceVertexBuffer", "class_ogre_1_1_d3_d9_render_system.html#a2a859eea18cd0c3cf0c7876bbab862a4", null ],
     [ "getGlobalInstanceVertexBufferVertexDeclaration", "class_ogre_1_1_d3_d9_render_system.html#a38924cc348317c9104797536eb29be13", null ],
@@ -256,9 +255,10 @@ var class_ogre_1_1_d3_d9_render_system =
     [ "shutdown", "class_ogre_1_1_d3_d9_render_system.html#af14f1a6b539a896178cebfd8a6282fa7", null ],
     [ "unbindGpuProgram", "class_ogre_1_1_d3_d9_render_system.html#a08255da85acf7431528d739c77d37ec3", null ],
     [ "unregisterThread", "class_ogre_1_1_d3_d9_render_system.html#acca4cb7d57e8b3a190d4599e0f0ac340", null ],
-    [ "updateCompositorManager", "class_ogre_1_1_d3_d9_render_system.html#af3f85981c582c83bc100dd13bad28ec2", null ],
+    [ "updateCompositorManager", "class_ogre_1_1_d3_d9_render_system.html#a41328026d8be0e7143402a914f707cf9", null ],
     [ "useCustomRenderSystemCapabilities", "class_ogre_1_1_d3_d9_render_system.html#a6219a2d1f92be5548983a03de9522365", null ],
     [ "validateConfigOptions", "class_ogre_1_1_d3_d9_render_system.html#ac674dcd0e1b47a07723fe341f06eef6d", null ],
+    [ "validateSampleDescription", "class_ogre_1_1_d3_d9_render_system.html#a1681d824b46321ab26f5566371c9fcb8", null ],
     [ "D3D9Device", "class_ogre_1_1_d3_d9_render_system.html#a62a49b9f66b36b9be215f88e190366a2", null ],
     [ "D3D9DeviceManager", "class_ogre_1_1_d3_d9_render_system.html#aec82c6ec0be39f7ecb3e0d165125a540", null ]
 ];

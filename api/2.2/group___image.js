@@ -186,6 +186,7 @@ var group___image =
       [ "~FreeImageCodec2", "class_ogre_1_1_free_image_codec2.html#a66904030331b6653786bde9fc9bdfba7", null ],
       [ "decode", "class_ogre_1_1_free_image_codec2.html#aaad6a1c73d3cc596e3cf4b924159a531", null ],
       [ "encode", "class_ogre_1_1_free_image_codec2.html#a5d9bd48fb7b6b701353b00a7454d04dc", null ],
+      [ "encodeBitmap", "class_ogre_1_1_free_image_codec2.html#aedd6632495b01ccd224fd8956e6acad4", null ],
       [ "encodeToFile", "class_ogre_1_1_free_image_codec2.html#a2881e72a3d7fe902f0beef5d77f51f74", null ],
       [ "getCodec", "class_ogre_1_1_free_image_codec2.html#acc4ee751f92b6e54051393e74e0a2884", null ],
       [ "getCodec", "class_ogre_1_1_free_image_codec2.html#ac8775b1052fb8ba72abdfb55df20a6af", null ],
@@ -291,6 +292,7 @@ var group___image =
       [ "~Image2", "class_ogre_1_1_image2.html#a56b4d5f75facd8bc1d7e855e366183ea", null ],
       [ "_setAutoDelete", "class_ogre_1_1_image2.html#a3e1c994ef2593120e930535c26c83ea3", null ],
       [ "convertFromTexture", "class_ogre_1_1_image2.html#aaf13aa1cedd6abda976a6f837d1bd29b", null ],
+      [ "copyContentsToMemory", "class_ogre_1_1_image2.html#a1a837e1213f1d754d01d08075f0e5379", null ],
       [ "encode", "class_ogre_1_1_image2.html#a9b32812ad755fe1c86c603d990efc89b", null ],
       [ "flipAroundX", "class_ogre_1_1_image2.html#afd16c6b35d6894e55a16a69d02333a55", null ],
       [ "flipAroundY", "class_ogre_1_1_image2.html#a484d360ac37a07a6901b08b712591694", null ],
@@ -329,7 +331,9 @@ var group___image =
       [ "operator new[]", "class_ogre_1_1_image2.html#a4be37baef81876985aa1071ad5acc6dd", null ],
       [ "operator new[]", "class_ogre_1_1_image2.html#afa2943846ba6a2b5824a12857139cf5e", null ],
       [ "operator=", "class_ogre_1_1_image2.html#af81cc04c0c3cfd4b07d1845863b2ef80", null ],
+      [ "resize", "class_ogre_1_1_image2.html#a605930f31cc26da8829cbd356e612c6d", null ],
       [ "save", "class_ogre_1_1_image2.html#a6a0ab1cfb3f348be3087816ed0d3785b", null ],
+      [ "scale", "class_ogre_1_1_image2.html#a3da16a65bdbe2a2350d31c6d52c4261e", null ],
       [ "setColourAt", "class_ogre_1_1_image2.html#a2329729f76e79feae856c6130090af70", null ],
       [ "supportsSwMipmaps", "class_ogre_1_1_image2.html#ac1ab51a51df74ad62c7dc69e93b4397b", null ],
       [ "uploadTo", "class_ogre_1_1_image2.html#acb29bff27ed8e1f0ab35c965cb7cbf59", null ]
@@ -436,16 +440,16 @@ var group___image =
       [ "unregisterCodec", "class_ogre_1_1_image_codec2.html#a7aa2599cd9db05e590fb7f7786076852", null ]
     ] ],
     [ "LinearResampler", "struct_ogre_1_1_linear_resampler.html", [
-      [ "scale", "struct_ogre_1_1_linear_resampler.html#a7a82c967cb98c1db45715509f72fc43b", null ]
+      [ "scale", "struct_ogre_1_1_linear_resampler.html#acad0869b5293daea8acb677d8dc8a864", null ]
     ] ],
     [ "LinearResampler_Byte", "struct_ogre_1_1_linear_resampler___byte.html", [
-      [ "scale", "struct_ogre_1_1_linear_resampler___byte.html#a1404776f44fbb79b14ec774ec7ac25af", null ]
+      [ "scale", "struct_ogre_1_1_linear_resampler___byte.html#a421a196b3a71ac9ffc50be486698185e", null ]
     ] ],
     [ "LinearResampler_Float32", "struct_ogre_1_1_linear_resampler___float32.html", [
-      [ "scale", "struct_ogre_1_1_linear_resampler___float32.html#a86e44dcdddb74c9ea459b6b1c57a0b21", null ]
+      [ "scale", "struct_ogre_1_1_linear_resampler___float32.html#a1f12b5861535684bc775e7f682dd2f97", null ]
     ] ],
     [ "NearestResampler", "struct_ogre_1_1_nearest_resampler.html", [
-      [ "scale", "struct_ogre_1_1_nearest_resampler.html#a13aed755b21d090e3896bba5e60630d0", null ]
+      [ "scale", "struct_ogre_1_1_nearest_resampler.html#a6decea79b9672a704cd7554c1d41537f", null ]
     ] ],
     [ "OITDCodec", "class_ogre_1_1_o_i_t_d_codec.html", [
       [ "CodecDataPtr", "class_ogre_1_1_o_i_t_d_codec.html#a29e31ad112b08ea7fb648b63f426ff1f", null ],
@@ -536,8 +540,27 @@ var group___image =
         [ "PFF_COMPRESSED", "class_ogre_1_1_pixel_format_gpu_utils.html#a19c5422c171a259ffdc5967d1aead7c0ac50b02b162514505f65f47b778b5771d", null ],
         [ "PFF_PALLETE", "class_ogre_1_1_pixel_format_gpu_utils.html#a19c5422c171a259ffdc5967d1aead7c0a7dd9a143709a9e9df86e8b51b5309dcc", null ]
       ] ],
+      [ "PixelFormatLayout", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996", [
+        [ "PFL_OTHER", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a880b2fd053b02f0794d0741b66c7e397", null ],
+        [ "PFL_RGBA32", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996aaf543c8229732a0198704f00e69a7fc1", null ],
+        [ "PFL_RGB32", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a3e0e2050ff3e7b5005c57cc98d139906", null ],
+        [ "PFL_RG32", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996ae6f321380c9a825968df8ccb4fc0a48e", null ],
+        [ "PFL_R32", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a5ff2e17aca59f1c45720e26bd7473299", null ],
+        [ "PFL_RGBA16", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996ae67477cfa4f30d644fb33ccf57177983", null ],
+        [ "PFL_RGB16", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a43ca1cb948a2473a200a26bae33c21c1", null ],
+        [ "PFL_RG16", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a0bce740cfa07f6e74c4c848a89bc493b", null ],
+        [ "PFL_R16", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996ab150cc3c7033a5b0e19ad8d77e4a002d", null ],
+        [ "PFL_RGBA8", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996aac163af1a1070eb0495378216a075229", null ],
+        [ "PFL_BGRA8", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996afa922dd4f0311fa7723f7395e7fce180", null ],
+        [ "PFL_BGRX8", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a9e7450d70bad1347ffc9bd677fb0057e", null ],
+        [ "PFL_RGB8", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a760d05d61e6492bd900c84b75aa1f6ab", null ],
+        [ "PFL_BGR8", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a90ae1f444ad0e2ae1897342ec2bd22ed", null ],
+        [ "PFL_RG8", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a246092a65ee603e5e9309f7bfc70b75c", null ],
+        [ "PFL_R8", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a9e80ebcd1741652a829a06823445c09a", null ],
+        [ "PFL_COUNT", "class_ogre_1_1_pixel_format_gpu_utils.html#ad8c6704e31e61fa0963e8adfc6573996a059a2c893bad094c3c57e867d99d2b77", null ]
+      ] ],
       [ "advancePointerToMip", "class_ogre_1_1_pixel_format_gpu_utils.html#a8924550f72a12bac742787a7868314f3", null ],
-      [ "bulkPixelConversion", "class_ogre_1_1_pixel_format_gpu_utils.html#a4025e477b86137fde9e4b798d6572328", null ],
+      [ "bulkPixelConversion", "class_ogre_1_1_pixel_format_gpu_utils.html#af78f1f21c6fe6d68b8d1b4be15a0bf06", null ],
       [ "calculateSizeBytes", "class_ogre_1_1_pixel_format_gpu_utils.html#a94a49f7166b2bb6b3682474035331550", null ],
       [ "convertForNormalMapping", "class_ogre_1_1_pixel_format_gpu_utils.html#abad57a12180f5bf372c17dc67c5b5629", null ],
       [ "fromSRGB", "class_ogre_1_1_pixel_format_gpu_utils.html#a2a7f9196213956379b4b79a7c69f7b73", null ],
@@ -555,7 +578,9 @@ var group___image =
       [ "getMaxMipmapCount", "class_ogre_1_1_pixel_format_gpu_utils.html#ab95fcc8a04ff77b2c329fc5228eb0d80", null ],
       [ "getMaxMipmapCount", "class_ogre_1_1_pixel_format_gpu_utils.html#ad1cdb125a175553c62ab984c90dfb978", null ],
       [ "getNumberOfComponents", "class_ogre_1_1_pixel_format_gpu_utils.html#a934623889db64cfe269d8abc5b199c56", null ],
+      [ "getPixelLayout", "class_ogre_1_1_pixel_format_gpu_utils.html#a88ca9cce2086ec6e43b9a784e30421bb", null ],
       [ "getSizeBytes", "class_ogre_1_1_pixel_format_gpu_utils.html#aee2ade90d769c187b8192e0a234c5f17", null ],
+      [ "hasAlpha", "class_ogre_1_1_pixel_format_gpu_utils.html#ad7742e6f6c38e1d4611ce9f102bd587b", null ],
       [ "hasSRGBEquivalent", "class_ogre_1_1_pixel_format_gpu_utils.html#aa9dda2a3e94fa06447957e0fc7c3ef70", null ],
       [ "isAccessible", "class_ogre_1_1_pixel_format_gpu_utils.html#a5767ad52ab3b360b15844942a4c8d1c1", null ],
       [ "isCompressed", "class_ogre_1_1_pixel_format_gpu_utils.html#af28291519613043262ace40685f64770", null ],
@@ -958,6 +983,11 @@ var group___image =
       [ "PFG_P208", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18a073cb8e367d0e7b01afbaf41375a3a00", null ],
       [ "PFG_V208", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18abda15d4c54986b4c2f31b8313207f095", null ],
       [ "PFG_V408", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18a54b79aa7120709ea85336f15d0a54158", null ],
+      [ "PFG_RGB8_UNORM", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18afde33c427368230bf0529ad2477e7e78", null ],
+      [ "PFG_RGB8_UNORM_SRGB", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18a9723d130b83757ba9c211f677cb103f6", null ],
+      [ "PFG_BGR8_UNORM", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18a6f0a12570d27cefd36cadf738c2b18ad", null ],
+      [ "PFG_BGR8_UNORM_SRGB", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18a7d6060a36500e3e5104f53cfd1e2e8ff", null ],
+      [ "PFG_RGB16_UNORM", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18ad7e8701b59a2874a02a4a1e27f58b82b", null ],
       [ "PFG_PVRTC_RGB2", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18a935bf280344c5ba70e9aa41811b39218", null ],
       [ "PFG_PVRTC_RGB2_SRGB", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18af739fe202779e85282f7becb4bfb13c3", null ],
       [ "PFG_PVRTC_RGBA2", "group___image.html#gga71f09fe41a1db41186262f1aa5814a18aad1c4429a418647b5e49ecba20b254fa", null ],

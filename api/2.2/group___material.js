@@ -200,6 +200,7 @@ var group___material =
         [ "ResidentToSysRamSync", "class_ogre_1_1_hlms_compute_job.html#afe11bd546cf7315f4526488e7078cc7da218a4243be85ec9c989b777119d5ff47", null ],
         [ "MetadataCacheOutOfDate", "class_ogre_1_1_hlms_compute_job.html#afe11bd546cf7315f4526488e7078cc7da4f559ca1853a24a28b40caae1acda604", null ],
         [ "ExceptionThrown", "class_ogre_1_1_hlms_compute_job.html#afe11bd546cf7315f4526488e7078cc7da704ea118c7e9f0b1598b528bdcbe1b26", null ],
+        [ "FsaaSettingAlteredByApi", "class_ogre_1_1_hlms_compute_job.html#afe11bd546cf7315f4526488e7078cc7dae3eb70053cbf5401f22893cdb47f81a7", null ],
         [ "ReadyForRendering", "class_ogre_1_1_hlms_compute_job.html#afe11bd546cf7315f4526488e7078cc7dad4d9c6e3b7755f38d8d5f003be100257", null ],
         [ "Deleted", "class_ogre_1_1_hlms_compute_job.html#afe11bd546cf7315f4526488e7078cc7dabb2a61a0002ccca6afbde7588787e58e", null ]
       ] ],
@@ -1289,6 +1290,5 @@ var group___material =
       [ "UvAtlas7", "struct_ogre_1_1_unlit_mobile_prop.html#a86596afdfa629383080c8485c589a64b", null ],
       [ "UvAtlas8", "struct_ogre_1_1_unlit_mobile_prop.html#a793f6cd0d716c0e63fa2b91b5e40b74c", null ],
       [ "UvAtlas9", "struct_ogre_1_1_unlit_mobile_prop.html#ae6374a2db87d42780b6561f05129d4e5", null ]
-    ] ],
-    [ "TextureVec", "group___material.html#gafc9cd22b34445bc47b997e8324f665ee", null ]
+    ] ]
 ];

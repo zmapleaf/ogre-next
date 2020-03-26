@@ -2,6 +2,7 @@ var searchData=
 [
   ['uavbufferpacked',['UavBufferPacked',['../class_ogre_1_1_uav_buffer_packed.html',1,'Ogre']]],
   ['uavdependency',['UavDependency',['../struct_ogre_1_1_compositor_pass_def_1_1_uav_dependency.html',1,'Ogre::CompositorPassDef']]],
+  ['uint4',['uint4',['../struct_ogre_1_1uint4.html',1,'Ogre']]],
   ['unifiedhighlevelgpuprogram',['UnifiedHighLevelGpuProgram',['../class_ogre_1_1_unified_high_level_gpu_program.html',1,'Ogre']]],
   ['unifiedhighlevelgpuprogramfactory',['UnifiedHighLevelGpuProgramFactory',['../class_ogre_1_1_unified_high_level_gpu_program_factory.html',1,'Ogre']]],
   ['uniformparameter',['UniformParameter',['../class_ogre_1_1_r_t_shader_1_1_uniform_parameter.html',1,'Ogre::RTShader']]],

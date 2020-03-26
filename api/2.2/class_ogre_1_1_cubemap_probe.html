@@ -189,8 +189,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5db3d22c3c3e3df230ff795b088a7ddd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_cubemap_probe.html#a5db3d22c3c3e3df230ff795b088a7ddd">setStatic</a> (bool isStatic)</td></tr>
 <tr class="memdesc:a5db3d22c3c3e3df230ff795b088a7ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to False if it should be updated every frame.  <a href="#a5db3d22c3c3e3df230ff795b088a7ddd">More...</a><br /></td></tr>
 <tr class="separator:a5db3d22c3c3e3df230ff795b088a7ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa790f8b5e062285235e9f255f3805336"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_cubemap_probe.html#aa790f8b5e062285235e9f255f3805336">setTextureParams</a> (<a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> width, <a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> height, bool useManual=false, <a class="el" href="group___image.html#ga71f09fe41a1db41186262f1aa5814a18">PixelFormatGpu</a> pf=<a class="el" href="group___image.html#gga71f09fe41a1db41186262f1aa5814a18a1247103ed0c897244c2cdb511155ef31">PFG_RGBA8_UNORM_SRGB</a>, bool isStatic=true, <a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a> msaa=0)</td></tr>
-<tr class="separator:aa790f8b5e062285235e9f255f3805336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e6bd7014482143a0ac5f82095ac520"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_cubemap_probe.html#a44e6bd7014482143a0ac5f82095ac520">setTextureParams</a> (<a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> width, <a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> height, bool useManual=false, <a class="el" href="group___image.html#ga71f09fe41a1db41186262f1aa5814a18">PixelFormatGpu</a> pf=<a class="el" href="group___image.html#gga71f09fe41a1db41186262f1aa5814a18a1247103ed0c897244c2cdb511155ef31">PFG_RGBA8_UNORM_SRGB</a>, bool isStatic=true, <a class="el" href="struct_ogre_1_1_sample_description.html">SampleDescription</a> sampleDesc=<a class="el" href="struct_ogre_1_1_sample_description.html">SampleDescription</a>())</td></tr>
+<tr class="separator:a44e6bd7014482143a0ac5f82095ac520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -1305,8 +1305,8 @@ template&lt;class Alloc &gt; </div>
 
 </div>
 </div>
-<a id="aa790f8b5e062285235e9f255f3805336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa790f8b5e062285235e9f255f3805336">&#9670;&nbsp;</a></span>setTextureParams()</h2>
+<a id="a44e6bd7014482143a0ac5f82095ac520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44e6bd7014482143a0ac5f82095ac520">&#9670;&nbsp;</a></span>setTextureParams()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1344,8 +1344,8 @@ template&lt;class Alloc &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a>&#160;</td>
-          <td class="paramname"><em>msaa</em> = <code>0</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_ogre_1_1_sample_description.html">SampleDescription</a>&#160;</td>
+          <td class="paramname"><em>sampleDesc</em> = <code><a class="el" href="struct_ogre_1_1_sample_description.html">SampleDescription</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1361,7 +1361,7 @@ template&lt;class Alloc &gt; </div>
     <tr><td class="paramname">height</td><td></td></tr>
     <tr><td class="paramname">pf</td><td></td></tr>
     <tr><td class="paramname">isStatic</td><td>Set to False if it should be updated every frame. True if only updated when dirty </td></tr>
-    <tr><td class="paramname">msaa</td><td></td></tr>
+    <tr><td class="paramname">sampleDesc</td><td></td></tr>
     <tr><td class="paramname">useManual</td><td>Set to true if you plan on using thie probe for manually rendering, so we keep mipmaps at the probe level. User is responsible for supplying a workspace definition that will generate mipmaps though! </td></tr>
   </table>
   </dd>

@@ -117,7 +117,6 @@ var class_ogre_1_1_d3_d11_render_system =
     [ "destroyHardwareOcclusionQuery", "class_ogre_1_1_d3_d11_render_system.html#ac4c60bf4c5d4347fd2b9346a90545e2b", null ],
     [ "destroyRenderPassDescriptor", "class_ogre_1_1_d3_d11_render_system.html#a60e5ffa2ec8f2709435c3d11e8a321f6", null ],
     [ "destroyRenderWindow", "class_ogre_1_1_d3_d11_render_system.html#a36a560a1e0e171b9a1a19a2748e6dd15", null ],
-    [ "determineFSAASettings", "class_ogre_1_1_d3_d11_render_system.html#a46f4c0a27d96185210ca7de1018af78e", null ],
     [ "enableClipPlane", "class_ogre_1_1_d3_d11_render_system.html#a69a555814009c44e88bdc5ab9257dbde", null ],
     [ "endGPUSampleProfile", "class_ogre_1_1_d3_d11_render_system.html#a77145f52d931b96a3fbf147fef635fb1", null ],
     [ "endProfileEvent", "class_ogre_1_1_d3_d11_render_system.html#aab0676ba6ae8c9713630cb30b54d467b", null ],
@@ -138,7 +137,6 @@ var class_ogre_1_1_d3_d11_render_system =
     [ "getDisplayMonitorCount", "class_ogre_1_1_d3_d11_render_system.html#a8d9a996201d2fdbd5db0b69c5f70c5a4", null ],
     [ "getDriverVersion", "class_ogre_1_1_d3_d11_render_system.html#a6e6521ead351b0b7a8b2cc519b5f4dd6", null ],
     [ "getErrorDescription", "class_ogre_1_1_d3_d11_render_system.html#aab1eb2dd87981c77b475a10a74eb90ba", null ],
-    [ "getFixedPipelineEnabled", "class_ogre_1_1_d3_d11_render_system.html#a28c75f1ca83ffac6c50c8a2f43a48933", null ],
     [ "getFriendlyName", "class_ogre_1_1_d3_d11_render_system.html#a5557d9432d0bf160a7668c2af6205b2a", null ],
     [ "getGlobalInstanceVertexBuffer", "class_ogre_1_1_d3_d11_render_system.html#a2a859eea18cd0c3cf0c7876bbab862a4", null ],
     [ "getGlobalInstanceVertexBufferVertexDeclaration", "class_ogre_1_1_d3_d11_render_system.html#a38924cc348317c9104797536eb29be13", null ],
@@ -163,7 +161,7 @@ var class_ogre_1_1_d3_d11_render_system =
     [ "getWBufferEnabled", "class_ogre_1_1_d3_d11_render_system.html#a644d2fd38872cf323c50f63148d27d02", null ],
     [ "handleDeviceLost", "class_ogre_1_1_d3_d11_render_system.html#afcc899b2dbf8c5dfa081cedc0e1d508e", null ],
     [ "hasAnisotropicMipMapFilter", "class_ogre_1_1_d3_d11_render_system.html#a193ab39d966862d2d10afde502fb356a", null ],
-    [ "initConfigOptions", "class_ogre_1_1_d3_d11_render_system.html#a4f47299e13e65c4ef9125513d18ffb1f", null ],
+    [ "initConfigOptions", "class_ogre_1_1_d3_d11_render_system.html#ab69b9d3ab410ff01735647d9f843d1a3", null ],
     [ "initGPUProfiling", "class_ogre_1_1_d3_d11_render_system.html#aa35f281a0a9c0bf9d83037917b16738a", null ],
     [ "initRenderSystem", "class_ogre_1_1_d3_d11_render_system.html#a4ae0f324bcc1a167b3dd11228df11369", null ],
     [ "isGpuProgramBound", "class_ogre_1_1_d3_d11_render_system.html#a1ac003196b5b51384f714924a0041081", null ],
@@ -210,8 +208,9 @@ var class_ogre_1_1_d3_d11_render_system =
     [ "setWBufferEnabled", "class_ogre_1_1_d3_d11_render_system.html#a01c339f6e89d82b526fb7725424a4263", null ],
     [ "shutdown", "class_ogre_1_1_d3_d11_render_system.html#ab0a3fd2d052c5eaaca2c24a9111407d6", null ],
     [ "unregisterThread", "class_ogre_1_1_d3_d11_render_system.html#ac5013457ddd4eefb71e031332294fadf", null ],
-    [ "updateCompositorManager", "class_ogre_1_1_d3_d11_render_system.html#af3f85981c582c83bc100dd13bad28ec2", null ],
+    [ "updateCompositorManager", "class_ogre_1_1_d3_d11_render_system.html#a41328026d8be0e7143402a914f707cf9", null ],
     [ "useCustomRenderSystemCapabilities", "class_ogre_1_1_d3_d11_render_system.html#a6219a2d1f92be5548983a03de9522365", null ],
     [ "validateConfigOptions", "class_ogre_1_1_d3_d11_render_system.html#a388a2ebc61589e3c612ee2942d56ab16", null ],
-    [ "validateDevice", "class_ogre_1_1_d3_d11_render_system.html#a9b09517d914b4b572c045984b57e74c5", null ]
+    [ "validateDevice", "class_ogre_1_1_d3_d11_render_system.html#a9b09517d914b4b572c045984b57e74c5", null ],
+    [ "validateSampleDescription", "class_ogre_1_1_d3_d11_render_system.html#ad972e04ebf08dcfc4b6b4b91a8e40c3b", null ]
 ];

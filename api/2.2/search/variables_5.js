@@ -15,7 +15,7 @@ var searchData=
   ['emissiveconstant',['EmissiveConstant',['../struct_ogre_1_1_pbs_property.html#af505fde61a3446efa22bd8fc0ee627c8',1,'Ogre::PbsProperty']]],
   ['emissivemap',['EmissiveMap',['../struct_ogre_1_1_pbs_property.html#aa0b9c855539fd6f083759303448e88ed',1,'Ogre::PbsProperty']]],
   ['emissivetexidx',['emissiveTexIdx',['../struct_ogre_1_1_vct_material_1_1_datablock_conversion_result.html#a019db3b486b7a6d2d8a5ce4d979cdee7',1,'Ogre::VctMaterial::DatablockConversionResult']]],
-  ['enablealphablend',['enableAlphaBlend',['../struct_ogre_1_1_g_l3_plus_hlms_pso.html#a6c239dd27a887c733128edb24fb5f8cb',1,'Ogre::GL3PlusHlmsPso']]],
+  ['enablealphablend',['enableAlphaBlend',['../struct_ogre_1_1_g_l3_plus_hlms_pso.html#a6c239dd27a887c733128edb24fb5f8cb',1,'Ogre::GL3PlusHlmsPso::enableAlphaBlend()'],['../struct_ogre_1_1_g_l_e_s2_hlms_pso.html#a3ed6a0e09db8abbb7d35e50f5b1e5fe3',1,'Ogre::GLES2HlmsPso::enableAlphaBlend()']]],
   ['enablecubemapsauto',['EnableCubemapsAuto',['../struct_ogre_1_1_pbs_property.html#ac83d2147eb56005444619f423f1db88f',1,'Ogre::PbsProperty']]],
   ['enabled',['enabled',['../struct_ogre_1_1_stencil_params.html#a8fb09fe7bb68a01e3a7cfaa841572c3c',1,'Ogre::StencilParams']]],
   ['enabledecals',['EnableDecals',['../struct_ogre_1_1_hlms_base_prop.html#a44c68b1348efc7a02e5d4c4678e85dcb',1,'Ogre::HlmsBaseProp']]],

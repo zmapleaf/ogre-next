@@ -298,7 +298,6 @@ Passes</h2>
 <h3><a class="anchor" id="CompositorNodesPassesClear"></a>
 clear</h3>
 <p>The syntax for clear passes is the same as 1.x; except that by default now Stencil is also cleared. This follows performance reasons, as GPU architectures where the Z buffer is tied with the stencil buffer, clearing only the Z buffer hinders the driver from discarding the buffer entirely or using fast Z clears.</p>
-<p>Additionally, all passes can define the viewport area they will work on, meaning clearing specific regions is now possible.</p>
 <h3><a class="anchor" id="CompositorNodesPassesGenerateMipmaps"></a>
 generate_mipmaps</h3>
 <p>Generate_mipmaps doesn't have special parameters other than the shared ones that are still relevant (i.e. identifier). They're useful for explicitly populating the lower mip levels after you've done rendering.</p>

@@ -18,6 +18,7 @@ var struct_ogre_1_1_texture_box =
     [ "getSizeBytes", "struct_ogre_1_1_texture_box.html#a9d6ef5c969147039156938a5e060fce6", null ],
     [ "getZOrSlice", "struct_ogre_1_1_texture_box.html#a43ac3ca52051d95d126b12b621559cae", null ],
     [ "isCompressed", "struct_ogre_1_1_texture_box.html#a809d00c601a80d541f98feb6046740f4", null ],
+    [ "isSubtextureRegion", "struct_ogre_1_1_texture_box.html#aef8f61c32108755c70f8e3dc405fdc30", null ],
     [ "overlaps", "struct_ogre_1_1_texture_box.html#a919cdc92f89a0984772fe567f87e442c", null ],
     [ "setColourAt", "struct_ogre_1_1_texture_box.html#adf17acee81fd9154a8490e6eb432188b", null ],
     [ "setCompressedPixelFormat", "struct_ogre_1_1_texture_box.html#ab7342f1a0cee195f763b0ba8edf75d4a", null ],

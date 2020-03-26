@@ -134,7 +134,6 @@ var class_ogre_1_1_metal_render_system =
     [ "getDisplayMonitorCount", "class_ogre_1_1_metal_render_system.html#a80ffdefabbeab58dfd0500481c24979a", null ],
     [ "getDriverVersion", "class_ogre_1_1_metal_render_system.html#a6e6521ead351b0b7a8b2cc519b5f4dd6", null ],
     [ "getErrorDescription", "class_ogre_1_1_metal_render_system.html#a8b41797711c01a066cd32a0190d32852", null ],
-    [ "getFixedPipelineEnabled", "class_ogre_1_1_metal_render_system.html#a28c75f1ca83ffac6c50c8a2f43a48933", null ],
     [ "getFriendlyName", "class_ogre_1_1_metal_render_system.html#a469c4cf39de9b8a7627e5f7c9875ce4c", null ],
     [ "getGlobalInstanceVertexBuffer", "class_ogre_1_1_metal_render_system.html#a2a859eea18cd0c3cf0c7876bbab862a4", null ],
     [ "getGlobalInstanceVertexBufferVertexDeclaration", "class_ogre_1_1_metal_render_system.html#a38924cc348317c9104797536eb29be13", null ],
@@ -159,6 +158,7 @@ var class_ogre_1_1_metal_render_system =
     [ "getWBufferEnabled", "class_ogre_1_1_metal_render_system.html#a644d2fd38872cf323c50f63148d27d02", null ],
     [ "hasAnisotropicMipMapFilter", "class_ogre_1_1_metal_render_system.html#a182f21443c320d3b4887159951344d3b", null ],
     [ "hasStoreAndMultisampleResolve", "class_ogre_1_1_metal_render_system.html#a831729c5f705c0a1fd1d53010b1311f5", null ],
+    [ "initConfigOptions", "class_ogre_1_1_metal_render_system.html#ad9dc8e0c165928ffc10e46c87f99bb0e", null ],
     [ "initGPUProfiling", "class_ogre_1_1_metal_render_system.html#a9f2371c85532b397a98dfda46d4f6b6c", null ],
     [ "initialiseFromRenderSystemCapabilities", "class_ogre_1_1_metal_render_system.html#a3eeefd48794bdbe750ff6809eb025759", null ],
     [ "isGpuProgramBound", "class_ogre_1_1_metal_render_system.html#a1ac003196b5b51384f714924a0041081", null ],
@@ -200,7 +200,8 @@ var class_ogre_1_1_metal_render_system =
     [ "setWBufferEnabled", "class_ogre_1_1_metal_render_system.html#a01c339f6e89d82b526fb7725424a4263", null ],
     [ "shutdown", "class_ogre_1_1_metal_render_system.html#a333d0c864a4fefaf32909e87ff7f40ab", null ],
     [ "unregisterThread", "class_ogre_1_1_metal_render_system.html#ab91219053418a64de5489087afd59fd5", null ],
-    [ "updateCompositorManager", "class_ogre_1_1_metal_render_system.html#ad448f46965d742a09e580c47d0793bd7", null ],
+    [ "updateCompositorManager", "class_ogre_1_1_metal_render_system.html#a793b9c1a86a6fe337f249ce7ab04a9b5", null ],
     [ "useCustomRenderSystemCapabilities", "class_ogre_1_1_metal_render_system.html#a6219a2d1f92be5548983a03de9522365", null ],
-    [ "validateConfigOptions", "class_ogre_1_1_metal_render_system.html#a0a19e5d285e594b94e5360e16fb0c5cf", null ]
+    [ "validateConfigOptions", "class_ogre_1_1_metal_render_system.html#a0a19e5d285e594b94e5360e16fb0c5cf", null ],
+    [ "validateSampleDescription", "class_ogre_1_1_metal_render_system.html#a57fdd794086a5adcd21d57ad7a0e81ee", null ]
 ];

@@ -138,7 +138,6 @@ var class_ogre_1_1_g_l3_plus_render_system =
     [ "getDisplayMonitorCount", "class_ogre_1_1_g_l3_plus_render_system.html#a1526bb1c290815e1c6541f53782c7ff6", null ],
     [ "getDriverVersion", "class_ogre_1_1_g_l3_plus_render_system.html#a6e6521ead351b0b7a8b2cc519b5f4dd6", null ],
     [ "getErrorDescription", "class_ogre_1_1_g_l3_plus_render_system.html#ad115f45d988d2589007eb4f4ffe301d1", null ],
-    [ "getFixedPipelineEnabled", "class_ogre_1_1_g_l3_plus_render_system.html#a28c75f1ca83ffac6c50c8a2f43a48933", null ],
     [ "getFriendlyName", "class_ogre_1_1_g_l3_plus_render_system.html#a783e98db560143778c1b13c5757448a5", null ],
     [ "getGlobalInstanceVertexBuffer", "class_ogre_1_1_g_l3_plus_render_system.html#a2a859eea18cd0c3cf0c7876bbab862a4", null ],
     [ "getGlobalInstanceVertexBufferVertexDeclaration", "class_ogre_1_1_g_l3_plus_render_system.html#a38924cc348317c9104797536eb29be13", null ],
@@ -204,8 +203,9 @@ var class_ogre_1_1_g_l3_plus_render_system =
     [ "setWBufferEnabled", "class_ogre_1_1_g_l3_plus_render_system.html#a01c339f6e89d82b526fb7725424a4263", null ],
     [ "shutdown", "class_ogre_1_1_g_l3_plus_render_system.html#abf7098c116afdd2eeb9104f38d97e51d", null ],
     [ "unregisterThread", "class_ogre_1_1_g_l3_plus_render_system.html#abf5969cca19f815380e71a45386d2e81", null ],
-    [ "updateCompositorManager", "class_ogre_1_1_g_l3_plus_render_system.html#af3f85981c582c83bc100dd13bad28ec2", null ],
+    [ "updateCompositorManager", "class_ogre_1_1_g_l3_plus_render_system.html#a41328026d8be0e7143402a914f707cf9", null ],
     [ "useCustomRenderSystemCapabilities", "class_ogre_1_1_g_l3_plus_render_system.html#a6219a2d1f92be5548983a03de9522365", null ],
     [ "validateConfigOptions", "class_ogre_1_1_g_l3_plus_render_system.html#ad3bf99b92c00114ad703df691d477338", null ],
+    [ "validateSampleDescription", "class_ogre_1_1_g_l3_plus_render_system.html#a1681d824b46321ab26f5566371c9fcb8", null ],
     [ "ShaderGeneratorTechniqueResolverListener", "class_ogre_1_1_g_l3_plus_render_system.html#ae3fef941757423683223183c2374e5d9", null ]
 ];

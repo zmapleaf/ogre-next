@@ -46,7 +46,6 @@ var _ogre_prerequisites_8h =
     [ "SkeletonPtr", "_ogre_prerequisites_8h.html#a2348646dd6dc0d382222eb16955ece6e", null ],
     [ "StringStream", "_ogre_prerequisites_8h.html#a9f14407f349c1ec70ddab871a7806590", null ],
     [ "stringstream", "_ogre_prerequisites_8h.html#a64e76a61ffe0fc66797727c518151d35", null ],
-    [ "TexturePtr", "_ogre_prerequisites_8h.html#aa381890787803da43b614dee8d9c8994", null ],
     [ "uchar", "_ogre_prerequisites_8h.html#a07f1f7c1d84d58c9beae02e1ebb945e4", null ],
     [ "uint", "_ogre_prerequisites_8h.html#ab6e842a18caf062ed73a5d3badd0dd4c", null ],
     [ "ulong", "_ogre_prerequisites_8h.html#a4304981347643708ee9a7ba8884e5758", null ],

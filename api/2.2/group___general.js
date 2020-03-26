@@ -1,5 +1,6 @@
 var group___general =
 [
+    [ "MsaaPatterns", "namespace_ogre_1_1_msaa_patterns.html", null ],
     [ "_ConfigOption", "struct_ogre_1_1___config_option.html", [
       [ "currentValue", "struct_ogre_1_1___config_option.html#aa41fec08addba15ef4c67b7c8db86f04", null ],
       [ "immutable", "struct_ogre_1_1___config_option.html#a593e092398f21c40c4303bdbac89097f", null ],
@@ -1656,8 +1657,10 @@ var group___general =
       [ "_fireFrameStarted", "class_ogre_1_1_root.html#a194d3177b24dae7d73255268773a54b3", null ],
       [ "_fireFrameStarted", "class_ogre_1_1_root.html#af747fc0427276e6c6936dd6a5ca01e87", null ],
       [ "_getCurrentSceneManager", "class_ogre_1_1_root.html#a883fd5c2376cec804e00265ad71e1d2e", null ],
+      [ "_notifyRenderingFrameStarted", "class_ogre_1_1_root.html#aa65fd3d7d2ae9bd93c1f3dd1f1e433d2", null ],
       [ "_popCurrentSceneManager", "class_ogre_1_1_root.html#a16b5488539651d697d0a4dd5cdbdd4c3", null ],
       [ "_pushCurrentSceneManager", "class_ogre_1_1_root.html#a14ab7036973eb56ee4e1ad10304d9b12", null ],
+      [ "_renderingFrameEnded", "class_ogre_1_1_root.html#a5716ab44216f79865216750e414b1b7e", null ],
       [ "_updateAllRenderTargets", "class_ogre_1_1_root.html#a24559fa6a4f1772c7518fcb0911278f4", null ],
       [ "_updateAllRenderTargets", "class_ogre_1_1_root.html#aba26bc9123d8725d971e458e48c2694f", null ],
       [ "addFrameListener", "class_ogre_1_1_root.html#aed3244a81b1c1cec76c675f8e62d7f5e", null ],
@@ -1764,6 +1767,26 @@ var group___general =
       [ "getNumber", "class_ogre_1_1_runtime_assertion_exception.html#ab4518b52083342bc207ef3b677114e38", null ],
       [ "getSource", "class_ogre_1_1_runtime_assertion_exception.html#ac3c2e6a43d2b1030eaf3ee8a34247737", null ],
       [ "what", "class_ogre_1_1_runtime_assertion_exception.html#a5323fd0394409fc11d86ac60491ea3e8", null ]
+    ] ],
+    [ "SampleDescription", "struct_ogre_1_1_sample_description.html", [
+      [ "SampleDescription", "struct_ogre_1_1_sample_description.html#a2054ecdd3835534410bb305413cc7565", null ],
+      [ "SampleDescription", "struct_ogre_1_1_sample_description.html#a25a080d68e4da7e5b1901a4a83eca489", null ],
+      [ "_set", "struct_ogre_1_1_sample_description.html#ab6e2495f5b52a10825a735cabb0bbb08", null ],
+      [ "getColourSamples", "struct_ogre_1_1_sample_description.html#a2685a3d76eb1cde81eb163837700f731", null ],
+      [ "getCoverageSamples", "struct_ogre_1_1_sample_description.html#a8d6cb3c82d60cd159c961e4a67de4970", null ],
+      [ "getFsaaDesc", "struct_ogre_1_1_sample_description.html#ad4a7dc06a8e54f07728efd181b5a94ee", null ],
+      [ "getFsaaDesc", "struct_ogre_1_1_sample_description.html#ab5a001a6b1f609642dcc45f7bf13c940", null ],
+      [ "getMaxSamples", "struct_ogre_1_1_sample_description.html#a773d4f10b57f99ff44d9bb66610b79a9", null ],
+      [ "getMsaaPattern", "struct_ogre_1_1_sample_description.html#a9d4b9f180fc220fdecc6a26fe6037619", null ],
+      [ "isCsaa", "struct_ogre_1_1_sample_description.html#abb0fffe8c7ef47418571d0df8980fe1a", null ],
+      [ "isCsaaQuality", "struct_ogre_1_1_sample_description.html#a26d67335d06144d21fec2f27d610265a", null ],
+      [ "isMsaa", "struct_ogre_1_1_sample_description.html#acec551798fc66e43c34ebd3ad3f5e461", null ],
+      [ "isMultisample", "struct_ogre_1_1_sample_description.html#aed2a6d94f228bc712b007f822cffe589", null ],
+      [ "operator==", "struct_ogre_1_1_sample_description.html#a025a8b3c09ee63bfed776b9151c31754", null ],
+      [ "parseString", "struct_ogre_1_1_sample_description.html#ac097ba07792c8c536944b02e8ba352b6", null ],
+      [ "setCsaa", "struct_ogre_1_1_sample_description.html#af72c38093f3aa513d4c740aea0bc00e9", null ],
+      [ "setEqaa", "struct_ogre_1_1_sample_description.html#a933c0f4deb1ecd4a58349e0404e9972e", null ],
+      [ "setMsaa", "struct_ogre_1_1_sample_description.html#a39a62fc76ed2d6dd1f9c55807b430ef8", null ]
     ] ],
     [ "ScaleControllerFunction", "class_ogre_1_1_scale_controller_function.html", [
       [ "ScaleControllerFunction", "class_ogre_1_1_scale_controller_function.html#a3e6000bf99e2f0ebd5fbbf3cb4c74338", null ],
@@ -1899,7 +1922,7 @@ var group___general =
       [ "operator new", "class_ogre_1_1_script_lexer.html#ab78a921e54419be677839cdf15d1f0b8", null ],
       [ "operator new[]", "class_ogre_1_1_script_lexer.html#a4be37baef81876985aa1071ad5acc6dd", null ],
       [ "operator new[]", "class_ogre_1_1_script_lexer.html#afa2943846ba6a2b5824a12857139cf5e", null ],
-      [ "tokenize", "class_ogre_1_1_script_lexer.html#ae67a6b12bc1f721eba363cc9c33ae8e2", null ]
+      [ "tokenize", "class_ogre_1_1_script_lexer.html#aa775ffdbd4b7d47e86b788b29acde348", null ]
     ] ],
     [ "ScriptLoader", "class_ogre_1_1_script_loader.html", [
       [ "~ScriptLoader", "class_ogre_1_1_script_loader.html#ad7758f66fa9246639426f3044478f709", null ],
@@ -1920,12 +1943,14 @@ var group___general =
       [ "operator new", "class_ogre_1_1_script_parser.html#ab78a921e54419be677839cdf15d1f0b8", null ],
       [ "operator new[]", "class_ogre_1_1_script_parser.html#a4be37baef81876985aa1071ad5acc6dd", null ],
       [ "operator new[]", "class_ogre_1_1_script_parser.html#afa2943846ba6a2b5824a12857139cf5e", null ],
-      [ "parse", "class_ogre_1_1_script_parser.html#aa5da0d07ff858b36212cea1bc5ef6a5b", null ],
-      [ "parseChunk", "class_ogre_1_1_script_parser.html#aab60359e8c69df194f2a983a705e15ba", null ]
+      [ "parse", "class_ogre_1_1_script_parser.html#a25c4c332a4e4d04e530f1593f9fc1f0d", null ],
+      [ "parseChunk", "class_ogre_1_1_script_parser.html#a0546dba2e2b41af80b6a8aeb066dc3c5", null ]
     ] ],
     [ "ScriptToken", "struct_ogre_1_1_script_token.html", [
-      [ "file", "struct_ogre_1_1_script_token.html#a620d045e9cea2ce41df4c5ec1b2e0d61", null ],
-      [ "lexeme", "struct_ogre_1_1_script_token.html#ae229067d36cb90679ff2cbfc6d0ac59d", null ],
+      [ "lexeme", "struct_ogre_1_1_script_token.html#aa19ea4cbc50a09c0657bce9ab053a1b6", null ],
+      [ "lexemeEquals", "struct_ogre_1_1_script_token.html#a0c74543d42f1f36c73ecfd76b4177073", null ],
+      [ "lexemeLen", "struct_ogre_1_1_script_token.html#ad065a5c8a457b5e951e2e8f7a79d29f4", null ],
+      [ "lexemePtr", "struct_ogre_1_1_script_token.html#a3ff89cd1a7a0a9aa09aee101b354d2e3", null ],
       [ "line", "struct_ogre_1_1_script_token.html#a83500d1c1b1528eca630836658a56f90", null ],
       [ "type", "struct_ogre_1_1_script_token.html#a3c41790bd168ff84d8558ed1597daa82", null ]
     ] ],
@@ -2093,13 +2118,13 @@ var group___general =
       [ "parseVector4", "class_ogre_1_1_string_converter.html#a7dd1a2f936cced85559abb1f948bdecb", null ],
       [ "setDefaultStringLocale", "class_ogre_1_1_string_converter.html#a801a44b0eb1b8e700b6de9e225f415a8", null ],
       [ "setUseLocale", "class_ogre_1_1_string_converter.html#a739e93c69c8fb5a8ffd91471437516f5", null ],
-      [ "toString", "class_ogre_1_1_string_converter.html#a2aeb896c04052fc4efca34274850dc52", null ],
+      [ "toString", "class_ogre_1_1_string_converter.html#a45fb498a2f798c82bbf88116a5a34c53", null ],
       [ "toString", "class_ogre_1_1_string_converter.html#abca988b16577c3feab1317c3646a180e", null ],
       [ "toString", "class_ogre_1_1_string_converter.html#aa331e97f9c49e38ac4951c6643f02fbf", null ],
       [ "toString", "class_ogre_1_1_string_converter.html#ad52e12f6ae6c1b1fec0a9bbaeff4b83d", null ],
       [ "toString", "class_ogre_1_1_string_converter.html#a18abdb1754749134d685e023b5a52bd3", null ],
-      [ "toString", "class_ogre_1_1_string_converter.html#a16f86bf7f546c9a6c0d3477e84f12024", null ],
       [ "toString", "class_ogre_1_1_string_converter.html#aa1378ae68227b869fc21b4bb9110d2db", null ],
+      [ "toString", "class_ogre_1_1_string_converter.html#a16f86bf7f546c9a6c0d3477e84f12024", null ],
       [ "toString", "class_ogre_1_1_string_converter.html#a17b3ccc053e6d9cb1e6f0fbd754984b5", null ],
       [ "toString", "class_ogre_1_1_string_converter.html#aa671980d27b86d09a0f568b451ba677d", null ],
       [ "toString", "class_ogre_1_1_string_converter.html#a54b489bc08f1542fe9dd0b9d57fbfbca", null ],
@@ -2481,9 +2506,8 @@ var group___general =
     [ "RenderSystemList", "group___general.html#ga8ec3f24590c290929ec15b4af5757351", null ],
     [ "RenderWindowDescriptionList", "group___general.html#ga7a03bf97326d0d0385b91a74e2c51c5e", null ],
     [ "RGBA", "group___general.html#ga8c0fefd117985c6df93c4714f370bcd6", null ],
-    [ "ScriptTokenList", "group___general.html#gaf5d5c336a97b2fd3dce37648e968c51c", null ],
+    [ "ScriptTokenList", "group___general.html#ga35ce2ec94e72326005e37f8ab44437b2", null ],
     [ "ScriptTokenListPtr", "group___general.html#gacd063ace8e2697904ef8c500b1096902", null ],
-    [ "ScriptTokenPtr", "group___general.html#ga836dfb2604ddbe9a5a43644ee826e41e", null ],
     [ "StringVector", "group___general.html#ga0899c03496d3c25c6555889aa76a78db", null ],
     [ "StringVectorPtr", "group___general.html#gae6b84ceebcdcc285f37bf9fba216697d", null ],
     [ "TrackVertexColourType", "group___general.html#gaf3fdba7211d7078a43201a1721532f9e", null ],

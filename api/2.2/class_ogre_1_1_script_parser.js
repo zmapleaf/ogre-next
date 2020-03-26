@@ -12,6 +12,6 @@ var class_ogre_1_1_script_parser =
     [ "operator new", "class_ogre_1_1_script_parser.html#ab78a921e54419be677839cdf15d1f0b8", null ],
     [ "operator new[]", "class_ogre_1_1_script_parser.html#a4be37baef81876985aa1071ad5acc6dd", null ],
     [ "operator new[]", "class_ogre_1_1_script_parser.html#afa2943846ba6a2b5824a12857139cf5e", null ],
-    [ "parse", "class_ogre_1_1_script_parser.html#aa5da0d07ff858b36212cea1bc5ef6a5b", null ],
-    [ "parseChunk", "class_ogre_1_1_script_parser.html#aab60359e8c69df194f2a983a705e15ba", null ]
+    [ "parse", "class_ogre_1_1_script_parser.html#a25c4c332a4e4d04e530f1593f9fc1f0d", null ],
+    [ "parseChunk", "class_ogre_1_1_script_parser.html#a0546dba2e2b41af80b6a8aeb066dc3c5", null ]
 ];

@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="struct_ogre_1_1vector.html" target="_top" xlink:title="Ogre::vector\&lt; Ogre\l::Lod0Stripifier::RemapInfo \&gt;">
+<g id="a_node1"><a xlink:href="struct_ogre_1_1vector.html" target="_top" xlink:title="Ogre::vector\&lt; ObjectMemory\lManager * \&gt;">
 <polygon fill="none" stroke="#000000" points="0,-.5 0,-30.5 143,-30.5 143,-.5 0,-.5"/>
-<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Ogre::vector&lt; Ogre</text>
-<text text-anchor="middle" x="71.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Lod0Stripifier::RemapInfo &gt;</text>
+<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Ogre::vector&lt; ObjectMemory</text>
+<text text-anchor="middle" x="71.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Manager * &gt;</text>
 </a>
 </g>
 </g>

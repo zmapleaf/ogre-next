@@ -109,6 +109,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_n_u_l_l_render_system.h
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7920ab3f09c3315a3072ea55176b0fc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_n_u_l_l_render_system.html#a7920ab3f09c3315a3072ea55176b0fc9">NULLRenderSystem</a> ()</td></tr>
 <tr class="separator:a7920ab3f09c3315a3072ea55176b0fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea42bbd7555f7c03c6c7f50a6eb15ac"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_n_u_l_l_render_system.html#aeea42bbd7555f7c03c6c7f50a6eb15ac">~NULLRenderSystem</a> (void)</td></tr>
+<tr class="separator:aeea42bbd7555f7c03c6c7f50a6eb15ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba1d51199ffa913a9a56e3b67e19de5a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_n_u_l_l_render_system.html#aba1d51199ffa913a9a56e3b67e19de5a">_beginFrame</a> (void)</td></tr>
 <tr class="memdesc:aba1d51199ffa913a9a56e3b67e19de5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signifies the beginning of a frame, i.e.  <a href="#aba1d51199ffa913a9a56e3b67e19de5a">More...</a><br /></td></tr>
 <tr class="separator:aba1d51199ffa913a9a56e3b67e19de5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -424,9 +426,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a81c66539eb33513d68443686e843c28a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_n_u_l_l_render_system.html#a81c66539eb33513d68443686e843c28a">getErrorDescription</a> (long errorNumber) const</td></tr>
 <tr class="memdesc:a81c66539eb33513d68443686e843c28a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a description of an error code.  <a href="#a81c66539eb33513d68443686e843c28a">More...</a><br /></td></tr>
 <tr class="separator:a81c66539eb33513d68443686e843c28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28c75f1ca83ffac6c50c8a2f43a48933"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_render_system.html#a28c75f1ca83ffac6c50c8a2f43a48933">getFixedPipelineEnabled</a> (void) const</td></tr>
-<tr class="memdesc:a28c75f1ca83ffac6c50c8a2f43a48933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if fixed pipeline rendering is enabled on the system.  <a href="#a28c75f1ca83ffac6c50c8a2f43a48933">More...</a><br /></td></tr>
-<tr class="separator:a28c75f1ca83ffac6c50c8a2f43a48933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae63be544e13bcdc6233882a263821fe0"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_n_u_l_l_render_system.html#ae63be544e13bcdc6233882a263821fe0">getFriendlyName</a> (void) const</td></tr>
 <tr class="memdesc:ae63be544e13bcdc6233882a263821fe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the friendly name of the render system.  <a href="#ae63be544e13bcdc6233882a263821fe0">More...</a><br /></td></tr>
 <tr class="separator:ae63be544e13bcdc6233882a263821fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -591,15 +590,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ca9e0d1ff8aa3955b7c1b724ac77241"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_n_u_l_l_render_system.html#a2ca9e0d1ff8aa3955b7c1b724ac77241">unregisterThread</a> ()</td></tr>
 <tr class="memdesc:a2ca9e0d1ff8aa3955b7c1b724ac77241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister an additional thread which may make calls to rendersystem-related objects.  <a href="#a2ca9e0d1ff8aa3955b7c1b724ac77241">More...</a><br /></td></tr>
 <tr class="separator:a2ca9e0d1ff8aa3955b7c1b724ac77241"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f85981c582c83bc100dd13bad28ec2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_render_system.html#af3f85981c582c83bc100dd13bad28ec2">updateCompositorManager</a> (<a class="el" href="class_ogre_1_1_compositor_manager2.html">CompositorManager2</a> *compositorManager, <a class="el" href="class_ogre_1_1_scene_manager_enumerator.html">SceneManagerEnumerator</a> &amp;sceneManagers, <a class="el" href="class_ogre_1_1_hlms_manager.html">HlmsManager</a> *hlmsManager)</td></tr>
-<tr class="memdesc:af3f85981c582c83bc100dd13bad28ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This gives the renderer a chance to perform the compositor update in a special way.  <a href="#af3f85981c582c83bc100dd13bad28ec2">More...</a><br /></td></tr>
-<tr class="separator:af3f85981c582c83bc100dd13bad28ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41328026d8be0e7143402a914f707cf9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_render_system.html#a41328026d8be0e7143402a914f707cf9">updateCompositorManager</a> (<a class="el" href="class_ogre_1_1_compositor_manager2.html">CompositorManager2</a> *compositorManager)</td></tr>
+<tr class="memdesc:a41328026d8be0e7143402a914f707cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This gives the renderer a chance to perform the compositor update in a special way.  <a href="#a41328026d8be0e7143402a914f707cf9">More...</a><br /></td></tr>
+<tr class="separator:a41328026d8be0e7143402a914f707cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6219a2d1f92be5548983a03de9522365"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_render_system.html#a6219a2d1f92be5548983a03de9522365">useCustomRenderSystemCapabilities</a> (<a class="el" href="class_ogre_1_1_render_system_capabilities.html">RenderSystemCapabilities</a> *capabilities)</td></tr>
 <tr class="memdesc:a6219a2d1f92be5548983a03de9522365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force the render system to use the special capabilities.  <a href="#a6219a2d1f92be5548983a03de9522365">More...</a><br /></td></tr>
 <tr class="separator:a6219a2d1f92be5548983a03de9522365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5809ac043bc5ca432aa7a9c1fad244a6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_n_u_l_l_render_system.html#a5809ac043bc5ca432aa7a9c1fad244a6">validateConfigOptions</a> (void)</td></tr>
 <tr class="memdesc:a5809ac043bc5ca432aa7a9c1fad244a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates the options set for the rendering system, returning a message if there are problems.  <a href="#a5809ac043bc5ca432aa7a9c1fad244a6">More...</a><br /></td></tr>
 <tr class="separator:a5809ac043bc5ca432aa7a9c1fad244a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1681d824b46321ab26f5566371c9fcb8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_ogre_1_1_sample_description.html">SampleDescription</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_render_system.html#a1681d824b46321ab26f5566371c9fcb8">validateSampleDescription</a> (const <a class="el" href="struct_ogre_1_1_sample_description.html">SampleDescription</a> &amp;sampleDesc, <a class="el" href="group___image.html#ga71f09fe41a1db41186262f1aa5814a18">PixelFormatGpu</a> format)</td></tr>
+<tr class="memdesc:a1681d824b46321ab26f5566371c9fcb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns supported sample description for requested FSAA mode, with graceful downgrading.  <a href="#a1681d824b46321ab26f5566371c9fcb8">More...</a><br /></td></tr>
+<tr class="separator:a1681d824b46321ab26f5566371c9fcb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -629,6 +631,32 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeea42bbd7555f7c03c6c7f50a6eb15ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea42bbd7555f7c03c6c7f50a6eb15ac">&#9670;&nbsp;</a></span>~NULLRenderSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Ogre::NULLRenderSystem::~NULLRenderSystem </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1533,7 +1561,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#ac894b2151cd48878575d8dc9ebc7c6c1">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#abbf3f4044624a7828962886880ce0cfa">Ogre::D3D11RenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#ac894b2151cd48878575d8dc9ebc7c6c1">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a1917091f47e1eeca936ce3bd3944c032">Ogre::GLES2RenderSystem</a>, and <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#abbf3f4044624a7828962886880ce0cfa">Ogre::D3D11RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -1561,7 +1589,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#ac9cce37f85d70d9bd167963ea1c42792">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a26a83f5a987b7f089e0425fc81e03541">Ogre::D3D11RenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#ac9cce37f85d70d9bd167963ea1c42792">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a4809bac76ebb2ec45918d99f0c746615">Ogre::GLES2RenderSystem</a>, and <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a26a83f5a987b7f089e0425fc81e03541">Ogre::D3D11RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -1645,7 +1673,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a16f33125221abbda8b314aa58029b1ea">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a41d1da84f75c83dfd529f76763562987">Ogre::D3D11RenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a16f33125221abbda8b314aa58029b1ea">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a443874192f57c2e7962c8d9c75707e18">Ogre::GLES2RenderSystem</a>, and <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a41d1da84f75c83dfd529f76763562987">Ogre::D3D11RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -1673,7 +1701,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a8e5ebd047eaa60ceecd3d10d81a8506e">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a6afe09df3d0db5452f9fc181f8fa3d12">Ogre::D3D11RenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a8e5ebd047eaa60ceecd3d10d81a8506e">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#afdbd506a8605945bb94252404c82d272">Ogre::GLES2RenderSystem</a>, and <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a6afe09df3d0db5452f9fc181f8fa3d12">Ogre::D3D11RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -1701,7 +1729,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a98a887db8cb62eae45d39fc76042fe72">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a2d2b900d6ab2f9b2ac31852ca2e59813">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#ad9b255f445aaa9c233ccbd3228739a5e">Ogre::MetalRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a98a887db8cb62eae45d39fc76042fe72">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a83f844c47484e44a95345ba11ebeb56b">Ogre::GLES2RenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a2d2b900d6ab2f9b2ac31852ca2e59813">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#ad9b255f445aaa9c233ccbd3228739a5e">Ogre::MetalRenderSystem</a>.</p>
 
 </div>
 </div>
@@ -1729,7 +1757,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#ada4347d4060d47f5c9ef413ce519e9c9">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a3e65cdf108e22b556d602cec600da0ea">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#aaf5f34e5050accc38404916fa5038c83">Ogre::MetalRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#ada4347d4060d47f5c9ef413ce519e9c9">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a0374eb2cf2cabd0ba3031850053c9907">Ogre::GLES2RenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a3e65cdf108e22b556d602cec600da0ea">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#aaf5f34e5050accc38404916fa5038c83">Ogre::MetalRenderSystem</a>.</p>
 
 </div>
 </div>
@@ -1757,7 +1785,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a6477119d1b7e584fb0d83b0513e0792b">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a7e50f9245426bfd78b0422fb899dfb26">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#ab50beedca031e22bf6cccff4c739cb03">Ogre::MetalRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a6477119d1b7e584fb0d83b0513e0792b">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a8c8bfb0ebf542580cdaa4a0762e2c9ba">Ogre::GLES2RenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a7e50f9245426bfd78b0422fb899dfb26">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#ab50beedca031e22bf6cccff4c739cb03">Ogre::MetalRenderSystem</a>.</p>
 
 </div>
 </div>
@@ -1785,7 +1813,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#aa8f697a4470fe1cc5edc122f06e55ac5">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a8a5c0096505ceb84aea7e7c8945ab6fe">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#a35b551607bba18df63a4280c28da1313">Ogre::MetalRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#aa8f697a4470fe1cc5edc122f06e55ac5">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a0dd7f60b97585c27720229886fd6e460">Ogre::GLES2RenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a8a5c0096505ceb84aea7e7c8945ab6fe">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#a35b551607bba18df63a4280c28da1313">Ogre::MetalRenderSystem</a>.</p>
 
 </div>
 </div>
@@ -2086,7 +2114,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a4b7fecbc4909dcb48a0d51b1a949dcf4">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a882bb78ce0370d8880914f8ce757d7ae">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#adcd3cfde062ec79a2b0ebf0542386552">Ogre::MetalRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a4b7fecbc4909dcb48a0d51b1a949dcf4">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#ada801335f9d925e606c1c804feecda5f">Ogre::GLES2RenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a882bb78ce0370d8880914f8ce757d7ae">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#adcd3cfde062ec79a2b0ebf0542386552">Ogre::MetalRenderSystem</a>.</p>
 
 </div>
 </div>
@@ -2170,7 +2198,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a72be60d5550b4552b6a06afebf292ffa">Ogre::GL3PlusRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a72be60d5550b4552b6a06afebf292ffa">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a3363e6b3a4bf1299de508fa3f824db35">Ogre::GLES2RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -2198,7 +2226,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#ae9b6f353f9cce613f4d5c0a5bb3b0939">Ogre::GL3PlusRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#ae9b6f353f9cce613f4d5c0a5bb3b0939">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#aacde3189dbd7815a942b5b61ec0b46cd">Ogre::GLES2RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -2226,7 +2254,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a0dc6355f2a759be14ae3410f2a9206e2">Ogre::GL3PlusRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a0dc6355f2a759be14ae3410f2a9206e2">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a50d1b5b4571302c60a827c9a906f8b2c">Ogre::GLES2RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -2254,7 +2282,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a4d4a0d5aa5824afb9efe7ebb6e9cd81b">Ogre::GL3PlusRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a4d4a0d5aa5824afb9efe7ebb6e9cd81b">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a949f3caeff96f2a02606631c12fea2ed">Ogre::GLES2RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -3652,7 +3680,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>May override the current VertexArrayObject! </p>
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#add95717187ea8d38280526eb29d27ba7">Ogre::GL3PlusRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#add95717187ea8d38280526eb29d27ba7">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a6ea941c7dbd4ecb98e543e170ec3f622">Ogre::GLES2RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -3858,7 +3886,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Are fixed-function lights provided in view space? Affects optimisation. </p>
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a2ddd26db12f8cecef346f16c25e04fae">Ogre::GL3PlusRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a2ddd26db12f8cecef346f16c25e04fae">Ogre::GL3PlusRenderSystem</a>, and <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#ae982beab16b67617dfe88fc6fdbede32">Ogre::GLES2RenderSystem</a>.</p>
 
 <p class="reference">References <a class="el" href="group___general.html#gga5d04131dcb51ec3cf219465196b6de85a4b75431ccf4b6bde635265300498660e">Ogre::TVC_NONE</a>.</p>
 
@@ -4136,6 +4164,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks for the presense of an API-specific extension (eg. Vulkan, GL) </p>
+
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#a62169442a5c4b920527d8ef09d12f5d8">Ogre::GLES2RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -4968,34 +4998,6 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns a description of an error code. </p>
 
 <p>Implements <a class="el" href="class_ogre_1_1_render_system.html#a847238effa8920edf9aee7aa5b8cd7be">Ogre::RenderSystem</a>.</p>
-
-</div>
-</div>
-<a id="a28c75f1ca83ffac6c50c8a2f43a48933"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28c75f1ca83ffac6c50c8a2f43a48933">&#9670;&nbsp;</a></span>getFixedPipelineEnabled()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Ogre::RenderSystem::getFixedPipelineEnabled </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if fixed pipeline rendering is enabled on the system. </p>
 
 </div>
 </div>
@@ -6909,7 +6911,7 @@ Once this init sequence is completed the threads are independent but this startu
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a5ff4d96459f70eb14c888c14b62203a3">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a0446eae7ec8f45fa8e023ead267cf631">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#a1941c6dbb61cf6485103c6615457d227">Ogre::MetalRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_g_l3_plus_render_system.html#a5ff4d96459f70eb14c888c14b62203a3">Ogre::GL3PlusRenderSystem</a>, <a class="el" href="class_ogre_1_1_g_l_e_s2_render_system.html#aeb5eeecd68743d6220bdd922e2536e8a">Ogre::GLES2RenderSystem</a>, <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a0446eae7ec8f45fa8e023ead267cf631">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#a1941c6dbb61cf6485103c6615457d227">Ogre::MetalRenderSystem</a>.</p>
 
 </div>
 </div>
@@ -7043,8 +7045,8 @@ Once this init sequence is completed the threads are independent but this startu
 
 </div>
 </div>
-<a id="af3f85981c582c83bc100dd13bad28ec2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f85981c582c83bc100dd13bad28ec2">&#9670;&nbsp;</a></span>updateCompositorManager()</h2>
+<a id="a41328026d8be0e7143402a914f707cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41328026d8be0e7143402a914f707cf9">&#9670;&nbsp;</a></span>updateCompositorManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7056,24 +7058,8 @@ Once this init sequence is completed the threads are independent but this startu
           <td class="memname">virtual void Ogre::RenderSystem::updateCompositorManager </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ogre_1_1_compositor_manager2.html">CompositorManager2</a> *&#160;</td>
-          <td class="paramname"><em>compositorManager</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>compositorManager</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_ogre_1_1_scene_manager_enumerator.html">SceneManagerEnumerator</a> &amp;&#160;</td>
-          <td class="paramname"><em>sceneManagers</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_ogre_1_1_hlms_manager.html">HlmsManager</a> *&#160;</td>
-          <td class="paramname"><em>hlmsManager</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -7086,7 +7072,7 @@ Once this init sequence is completed the threads are independent but this startu
 <p>This gives the renderer a chance to perform the compositor update in a special way. </p>
 <p>When the render system is ready to perform the actual update it should just compositorManager-&gt;_updateImplementation. </p>
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_metal_render_system.html#ad448f46965d742a09e580c47d0793bd7">Ogre::MetalRenderSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_metal_render_system.html#a793b9c1a86a6fe337f249ce7ab04a9b5">Ogre::MetalRenderSystem</a>.</p>
 
 </div>
 </div>
@@ -7154,6 +7140,46 @@ Once this init sequence is completed the threads are independent but this startu
 <p>Implements <a class="el" href="class_ogre_1_1_render_system.html#ab19828ac45b10a64357d8b9fc0918351">Ogre::RenderSystem</a>.</p>
 
 <p class="reference">References <a class="el" href="group___general.html#gad842a4b416bd2f3245d2b44826a0aedc">Ogre::BLANKSTRING</a>, and <a class="el" href="group___general.html#gga5d04131dcb51ec3cf219465196b6de85a4b75431ccf4b6bde635265300498660e">Ogre::TVC_NONE</a>.</p>
+
+</div>
+</div>
+<a id="a1681d824b46321ab26f5566371c9fcb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1681d824b46321ab26f5566371c9fcb8">&#9670;&nbsp;</a></span>validateSampleDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_ogre_1_1_sample_description.html">SampleDescription</a> Ogre::RenderSystem::validateSampleDescription </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_ogre_1_1_sample_description.html">SampleDescription</a> &amp;&#160;</td>
+          <td class="paramname"><em>sampleDesc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___image.html#ga71f09fe41a1db41186262f1aa5814a18">PixelFormatGpu</a>&#160;</td>
+          <td class="paramname"><em>format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns supported sample description for requested FSAA mode, with graceful downgrading. </p>
+
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_d3_d11_render_system.html#ad972e04ebf08dcfc4b6b4b91a8e40c3b">Ogre::D3D11RenderSystem</a>, and <a class="el" href="class_ogre_1_1_metal_render_system.html#a57fdd794086a5adcd21d57ad7a0e81ee">Ogre::MetalRenderSystem</a>.</p>
 
 </div>
 </div>

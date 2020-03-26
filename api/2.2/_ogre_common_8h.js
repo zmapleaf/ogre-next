@@ -72,6 +72,12 @@ var _ogre_common_8h =
       [ "IM_FORCEONEWEIGHT", "_ogre_common_8h.html#gga4921efc65b347efe08a6d4992af069e2a7f599ab5ea537d8bab3af8aef358fe0a", null ],
       [ "IM_USEALL", "_ogre_common_8h.html#gga4921efc65b347efe08a6d4992af069e2a0ef5ea7756d41449148c181eef505d92", null ]
     ] ],
+    [ "MsaaPatterns", "_ogre_common_8h.html#a54095ce17b1cbaa8972173d9ea950f0f", [
+      [ "Undefined", "_ogre_common_8h.html#a54095ce17b1cbaa8972173d9ea950f0fae9213e03f8cab27c1f90e1981b2ab623", null ],
+      [ "Standard", "_ogre_common_8h.html#a54095ce17b1cbaa8972173d9ea950f0fa445f40c611f369b3ad626074ebd7815b", null ],
+      [ "Center", "_ogre_common_8h.html#a54095ce17b1cbaa8972173d9ea950f0fa8204db5736f2d9f7d147135189198ff7", null ],
+      [ "CenterZero", "_ogre_common_8h.html#a54095ce17b1cbaa8972173d9ea950f0fa8a445209440970fa095cef30a61bf250", null ]
+    ] ],
     [ "PolygonMode", "_ogre_common_8h.html#ga68866b02aa7f99e3431337511fbb3345", [
       [ "PM_POINTS", "_ogre_common_8h.html#gga68866b02aa7f99e3431337511fbb3345adfb098e30463c0f0689e0e1fbbd5eb0f", null ],
       [ "PM_WIREFRAME", "_ogre_common_8h.html#gga68866b02aa7f99e3431337511fbb3345ac1f71aad59ecae8cd02f0743dc7efa5d", null ],

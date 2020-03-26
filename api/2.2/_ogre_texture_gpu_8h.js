@@ -8,12 +8,6 @@ var _ogre_texture_gpu_8h =
       [ "PZ", "_ogre_texture_gpu_8h.html#aa05717bddc9101a336507b0a167cde29a72649b14e9a794c4c6dc462f0f716ad0", null ],
       [ "NZ", "_ogre_texture_gpu_8h.html#aa05717bddc9101a336507b0a167cde29a06c1fca711a92e8edd99bb6b4dede813", null ]
     ] ],
-    [ "MsaaPatterns", "_ogre_texture_gpu_8h.html#a54095ce17b1cbaa8972173d9ea950f0f", [
-      [ "Undefined", "_ogre_texture_gpu_8h.html#a54095ce17b1cbaa8972173d9ea950f0fae9213e03f8cab27c1f90e1981b2ab623", null ],
-      [ "Standard", "_ogre_texture_gpu_8h.html#a54095ce17b1cbaa8972173d9ea950f0fa445f40c611f369b3ad626074ebd7815b", null ],
-      [ "Center", "_ogre_texture_gpu_8h.html#a54095ce17b1cbaa8972173d9ea950f0fa8204db5736f2d9f7d147135189198ff7", null ],
-      [ "CenterZero", "_ogre_texture_gpu_8h.html#a54095ce17b1cbaa8972173d9ea950f0fa8a445209440970fa095cef30a61bf250", null ]
-    ] ],
     [ "TextureFlags", "_ogre_texture_gpu_8h.html#a59b71e36a14465bd82595d6d467e1434", [
       [ "NotTexture", "_ogre_texture_gpu_8h.html#a59b71e36a14465bd82595d6d467e1434a11bc1f37ab6f4ee0fc43da2e45ae5918", null ],
       [ "RenderToTexture", "_ogre_texture_gpu_8h.html#a59b71e36a14465bd82595d6d467e1434a3ff7a5394c299b94950eb7cff468ad1b", null ],

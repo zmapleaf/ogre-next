@@ -15,6 +15,7 @@ var class_ogre_1_1_image2 =
     [ "~Image2", "class_ogre_1_1_image2.html#a56b4d5f75facd8bc1d7e855e366183ea", null ],
     [ "_setAutoDelete", "class_ogre_1_1_image2.html#a3e1c994ef2593120e930535c26c83ea3", null ],
     [ "convertFromTexture", "class_ogre_1_1_image2.html#aaf13aa1cedd6abda976a6f837d1bd29b", null ],
+    [ "copyContentsToMemory", "class_ogre_1_1_image2.html#a1a837e1213f1d754d01d08075f0e5379", null ],
     [ "encode", "class_ogre_1_1_image2.html#a9b32812ad755fe1c86c603d990efc89b", null ],
     [ "flipAroundX", "class_ogre_1_1_image2.html#afd16c6b35d6894e55a16a69d02333a55", null ],
     [ "flipAroundY", "class_ogre_1_1_image2.html#a484d360ac37a07a6901b08b712591694", null ],
@@ -53,7 +54,9 @@ var class_ogre_1_1_image2 =
     [ "operator new[]", "class_ogre_1_1_image2.html#a4be37baef81876985aa1071ad5acc6dd", null ],
     [ "operator new[]", "class_ogre_1_1_image2.html#afa2943846ba6a2b5824a12857139cf5e", null ],
     [ "operator=", "class_ogre_1_1_image2.html#af81cc04c0c3cfd4b07d1845863b2ef80", null ],
+    [ "resize", "class_ogre_1_1_image2.html#a605930f31cc26da8829cbd356e612c6d", null ],
     [ "save", "class_ogre_1_1_image2.html#a6a0ab1cfb3f348be3087816ed0d3785b", null ],
+    [ "scale", "class_ogre_1_1_image2.html#a3da16a65bdbe2a2350d31c6d52c4261e", null ],
     [ "setColourAt", "class_ogre_1_1_image2.html#a2329729f76e79feae856c6130090af70", null ],
     [ "supportsSwMipmaps", "class_ogre_1_1_image2.html#ac1ab51a51df74ad62c7dc69e93b4397b", null ],
     [ "uploadTo", "class_ogre_1_1_image2.html#acb29bff27ed8e1f0ab35c965cb7cbf59", null ]

@@ -14,5 +14,7 @@ var class_ogre_1_1_sub_string_ref =
     [ "getStart", "class_ogre_1_1_sub_string_ref.html#a090016348a3edb9d6ea9f81889c21682", null ],
     [ "matchEqual", "class_ogre_1_1_sub_string_ref.html#a6eda6d376867029dafce16a7b429b7bc", null ],
     [ "setEnd", "class_ogre_1_1_sub_string_ref.html#a05957958d248c51b1383702cc805ee19", null ],
-    [ "setStart", "class_ogre_1_1_sub_string_ref.html#aed3e4d9c27f99d0af080bdfe24ce5549", null ]
+    [ "setStart", "class_ogre_1_1_sub_string_ref.html#aed3e4d9c27f99d0af080bdfe24ce5549", null ],
+    [ "startWith", "class_ogre_1_1_sub_string_ref.html#a2bc9805e1de02777c44b06146ad54790", null ],
+    [ "startWith", "class_ogre_1_1_sub_string_ref.html#a673204912aa84ac98f6c51ad2ee06826", null ]
 ];
