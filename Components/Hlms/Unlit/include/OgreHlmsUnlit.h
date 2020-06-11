@@ -73,6 +73,8 @@ namespace Ogre
         DescriptorSetTexture const *mLastDescTexture;
         DescriptorSetSampler const *mLastDescSampler;
 
+        float mConstantBiasScale;
+
         bool    mUsingExponentialShadowMaps;
         uint16  mEsmK; /// K parameter for ESM.
         uint32  mTexUnitSlotStart;

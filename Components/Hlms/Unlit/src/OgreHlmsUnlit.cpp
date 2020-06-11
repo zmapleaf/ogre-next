@@ -79,6 +79,7 @@ namespace Ogre
         mHasSeparateSamplers( 0 ),
         mLastDescTexture( 0 ),
         mLastDescSampler( 0 ),
+        mConstantBiasScale( 1.0f ),
         mUsingExponentialShadowMaps( false ),
         mEsmK( 600u ),
         mTexUnitSlotStart( 2u ),
@@ -99,6 +100,7 @@ namespace Ogre
         mLastBoundPool( 0 ),
         mLastDescTexture( 0 ),
         mLastDescSampler( 0 ),
+        mConstantBiasScale( 1.0f ),
         mUsingExponentialShadowMaps( false ),
         mEsmK( 600u ),
         mTexUnitSlotStart( 2u ),
@@ -601,6 +603,7 @@ namespace Ogre
         retVal.setProperties = mSetProperties;
         retVal.pso.pass = passCache.passPso;
 
+        mConstantBiasScale = cameras.renderingCamera->_getConstantBiasScale();
         Matrix4 viewMatrix = cameras.renderingCamera->getViewMatrix(true);
 
         Matrix4 projectionMatrix = cameras.renderingCamera->getProjectionMatrixWithRSDepth();
@@ -888,8 +891,8 @@ namespace Ogre
 
         //uint materialIdx[]
         *currentMappedConstBuffer = datablock->getAssignedSlot();
-        *reinterpret_cast<float * RESTRICT_ALIAS>( currentMappedConstBuffer+1 ) = datablock->
-                                                                                    mShadowConstantBias;
+        *reinterpret_cast<float * RESTRICT_ALIAS>( currentMappedConstBuffer + 1 ) =
+            datablock->mShadowConstantBias * mConstantBiasScale;
         *(currentMappedConstBuffer+2) = useIdentityProjection;
         currentMappedConstBuffer += 4;
 
